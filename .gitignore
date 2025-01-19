@@ -37,4 +37,11 @@ ENV/
 
 # OS
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# History
+.history/
+
+# LLM
+open_ai_key.txt
+anthropic_key.txt
