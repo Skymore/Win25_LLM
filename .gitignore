@@ -45,3 +45,7 @@ Thumbs.db
 # LLM
 open_ai_key.txt
 anthropic_key.txt
+
+# pkl & npy
+*.pkl
+*.npy

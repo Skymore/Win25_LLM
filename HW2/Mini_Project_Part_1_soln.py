@@ -1,3 +1,28 @@
+"""
+Mini Project 1 - Text Similarity Search
+-------------------------------------
+
+Team Members and Contributions:
+1. Victoria (Tzu-Ying) Cheng
+   - Implemented core algorithms:
+     * cosine_similarity
+     * averaged_glove_embeddings_gdrive
+     * get_sorted_cosine_similarity
+   - Conducted basic testing
+
+2. Rui Tao
+   - Tested and debugged the code
+   - Deployed web application on Local Machine
+   - Created documentation and test cases
+   - Set up Cloudflare Tunnel for public access
+   - URL: https://llm.ruit.me/
+
+This project implements a text similarity search web application using:
+- GloVe embeddings (25d, 50d, 100d)
+- Sentence Transformers
+- Streamlit for web interface
+- Cloudflare Tunnel for deployment
+"""
 
 ## Mini Project 1 - Part 1: Getting Familiar with Word Embeddings.
 # This assignment introduces students to text similarity measures using cosine similarity and sentence embeddings. 
@@ -243,10 +268,16 @@ def cosine_similarity(x, y):
     3. Return exponentiated cosine similarity
     (20 pts)
     """
-    ##################################
-    ### TODO: Add code here ##########
-    ##################################
-    pass
+    norm_x = np.linalg.norm(x)
+    norm_y = np.linalg.norm(y)
+
+    if norm_x == 0 or norm_y == 0:
+        return 0
+
+    cosine_sim = np.dot(x, y) / (norm_x * norm_y)
+    exp_cosine_sim = math.exp(cosine_sim)
+
+    return exp_cosine_sim
     
 # Task II: Average Glove Embedding Calculation
 def averaged_glove_embeddings_gdrive(sentence, word_index_dict, embeddings, model_type=50):
@@ -260,13 +291,26 @@ def averaged_glove_embeddings_gdrive(sentence, word_index_dict, embeddings, mode
     (30 pts)
     """
     embedding = np.zeros(int(model_type.split("d")[0]))
-    ##################################
-    ##### TODO: Add code here ########
-    ##################################
+    word_count = 0
+    words = sentence.split()
+
+    for word in words:
+        lower_word = word.lower()
+        word_index = word_index_dict.get(lower_word)
+        if word_index is not None:
+            word_embedding = embeddings[word_index]
+            if np.any(word_embedding):
+                embedding += word_embedding
+                word_count += 1
+
+    if word_count > 0:
+        embedding /= word_count
+
+    return embedding
 
 
 # Task III: Sort the cosine similarity
-def get_sorted_cosine_similarity(embeddings_metadata):
+def get_sorted_cosine_similarity(_, embeddings_metadata):
     """
     Get sorted cosine similarity between input sentence and categories
     Steps:
@@ -288,9 +332,9 @@ def get_sorted_cosine_similarity(embeddings_metadata):
                                                             word_index_dict,
                                                             embeddings, model_type)
         
-        ##########################################
-        ## TODO: Get embeddings for categories ###
-        ##########################################
+        for index, category in enumerate(categories):
+            category_embedding = averaged_glove_embeddings_gdrive(category, word_index_dict, embeddings, model_type)
+            cosine_sim[index] = cosine_similarity(input_embedding, category_embedding)
 
     else:
         model_name = embeddings_metadata["model_name"]
@@ -305,13 +349,14 @@ def get_sorted_cosine_similarity(embeddings_metadata):
         else:
             input_embedding = get_sentence_transformer_embeddings(st.session_state.text_search)
         for index in range(len(categories)):
-            pass
-            ##########################################
-            # TODO: Compute cosine similarity between input sentence and categories
-            # TODO: Update category embeddings if category not found  
-            ##########################################
+            category = categories[index]
+            if category not in category_embeddings:
+                category_embeddings[category] = get_sentence_transformer_embeddings(category, model_name=model_name)
 
-    return 
+            cosine_sim[index] = cosine_similarity(input_embedding, category_embeddings[category])
+            
+    sorted_cosine_sim = sorted(cosine_sim.items(), key=lambda x: x[1], reverse=True)
+    return sorted_cosine_sim
 
 
 ### Below is the main function, creating the app demo for text search engine using the text embeddings.
@@ -420,5 +465,5 @@ if __name__ == "__main__":
 
         st.write("")
         st.write(
-            "Demo developed by [Your Name](https://www.linkedin.com/in/your_id/ - Optional)"
+            "Demo developed by Rui Tao(https://www.linkedin.com/in/ruit/) & Victoria (Tzu-Ying) CHENG(https://www.linkedin.com/in/victoria-cheng-0ba10929a/)"
         )

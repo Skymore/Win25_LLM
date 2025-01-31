@@ -17,7 +17,10 @@ dependencies:
   - pillow
   - pip
   - python-dotenv
+  - streamlit
+  - gdown
   - pip:
     - openai 
     - anthropic
     - IPython
+    - sentence-transformers
