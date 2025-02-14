@@ -1,0 +1,558 @@
+Query,Doc_ID,similar_beir_query,similarity_score,num_original_relevant,num_additional_docs
+Herbalife® has been updated.,MED-4872 MED-4873 MED-4874 MED-3985 MED-3986 MED-3987 MED-3988 MED-3989 MED-3990 MED-3991,Update on Herbalife®,0.8217034151321445,105,-95
+Can eating Fruit & Nut Bars lead to an increase in weight?,MED-3896 MED-3897 MED-3906 MED-3908 MED-3900 MED-4289 MED-3910 MED-4715 MED-3893 MED-3894,Do Fruit & Nut Bars Cause Weight Gain?,0.9121035211968169,132,-122
+What can I do with chickpeas?,MED-2988 MED-2577 MED-2578 MED-2572 MED-2581 MED-2582 MED-2584 MED-2824 MED-2815 MED-2794,chickpeas,0.6770868458418124,200,-190
+Are chronic headaches caused by pork parasites?,MED-3178 MED-3169 MED-3172 MED-3181 MED-3174 MED-3175 MED-3176 MED-3182 MED-3170 MED-3171,Chronic Headaches and Pork Parasites,0.8964396007034845,223,-213
+is a professor at Harvard University and also serves as the Chair of the Department of Nutrition at the Harvard T.H. Chan School of Public Health and Professor of Medicine at Harvard Medical School.,MED-4000 MED-4002 MED-5016 MED-4005 MED-4007 MED-4001 MED-4004 MED-4006 MED-4600 MED-2726,Dr. Walter Willett,0.6002356348778991,280,-270
+Combating common diseases goes beyond consuming an apple daily.,MED-5322 MED-5323 MED-5324 MED-5325 MED-5326 MED-5327 MED-5328 MED-5329 MED-5330 MED-5331,More Than an Apple a Day: Combating Common Diseases,0.7048777569988003,143,-133
+What is the healthiest beverage to drink on an airplane?,MED-1836 MED-1837 MED-1838 MED-1839 MED-1840 MED-1841 MED-1842 MED-1843 MED-1844 MED-1845,Healthiest Airplane Beverage,0.8613066286656004,160,-150
+What is veal?,MED-4200 MED-4201 MED-4202 MED-3886 MED-3882 MED-3889 MED-3891 MED-3028 MED-2913 MED-3021,venison,0.362291923903229,1249,-1239
+The mystery of the Apthous Ulcer has been solved.,MED-4841 MED-1223 MED-1224 MED-5239 MED-1226 MED-1227 MED-2126 MED-1229 MED-1230 MED-2053,Apthous Ulcer Mystery Solved,0.893406103450799,192,-182
+The American Dental Association is an organization.,MED-3618 MED-3621 MED-3617 MED-3619 MED-3620 MED-3622 MED-2219 MED-2220 MED-2221 MED-1716,American Dental Association,0.7564477818895943,238,-228
+Evidence-based medicine is the practice of using evidence to inform medical decisions.,MED-1496 MED-1497 MED-1498 MED-1499 MED-1500 MED-1501 MED-1502 MED-1503 MED-1504 MED-1505,Evidence-based medicine,0.7361719912670242,249,-239
+Are ultra-processed foods inherently unhealthy?,MED-1650 MED-1651 MED-2726 MED-2221 MED-4602 MED-2988 MED-2577 MED-2578 MED-2572 MED-2581,ultra-processed foods,0.6969909410129733,407,-397
+Allergies have a connection to Alkylphenol Endocrine Disruptors.,MED-4551 MED-2643 MED-2644 MED-2645 MED-2646 MED-2647 MED-2648 MED-2649 MED-2650 MED-2651,Alkylphenol Endocrine Disruptors and Allergies,0.7951389159774145,341,-331
+What are some foods that are beneficial for individuals with glaucoma?,MED-2896 MED-2899 MED-2900 MED-2901 MED-2882 MED-2898 MED-2884 MED-2885 MED-2886 MED-2888,Foods for Glaucoma,0.84652891571433,91,-81
+Apnea is a condition where a person temporarily stops breathing while sleeping.,MED-4399 MED-4400 MED-4402 MED-4539 MED-4540 MED-4541 MED-3536 MED-3537 MED-3539 MED-5030,apnea,0.6843576796448658,244,-234
+What is Zoloft?,MED-1356 MED-1357 MED-1358 MED-1359 MED-1360 MED-1342 MED-1343 MED-1344 MED-1345 MED-1355,Zoloft,0.7890193986856333,116,-106
+What is the purpose and role of chlorophyll in plants?,MED-4194 MED-4195 MED-4196 MED-4197 MED-5023 MED-5024 MED-2042 MED-2043 MED-2044 MED-2045,chlorophyll,0.5143616224996279,105,-95
+The Pritikin Puzzle has been solved.,MED-4612 MED-4220 MED-5341 MED-3875 MED-3876 MED-3877 MED-4233 MED-4222 MED-4223 MED-4224,The Answer to the Pritikin Puzzle,0.8344433041814755,139,-129
+Dr. Walter Willett is a doctor.,MED-4000 MED-4002 MED-5016 MED-4005 MED-4007 MED-4001 MED-4004 MED-4006 MED-4600 MED-2527,Dr. Walter Willett,0.8667705008669191,141,-131
+The experiment was successfully taken from the laboratory to the race track.,MED-4508 MED-4504 MED-4505 MED-4506 MED-4286 MED-4281 MED-4551 MED-2643 MED-2645 MED-2656,Out of the Lab Onto the Track,0.6669640222338371,254,-244
+Saturated fat is a nutrient that should not be consumed in excessive amounts.,MED-4551 MED-2643 MED-2645 MED-2656 MED-2657 MED-2658 MED-2660 MED-2649 MED-2797 MED-2809,saturated fat,0.5737604973057711,428,-418
+The duration for which a product can be stored without any deterioration in quality or safety.,MED-4303 MED-4324 MED-4342 MED-4349 MED-4345 MED-4346 MED-5322 MED-5323 MED-5324 MED-5325,shelf life,0.5973850300360828,772,-762
+Salmon is a type of fish.,MED-2644 MED-2646 MED-2651 MED-118 MED-2652 MED-2653 MED-2655 MED-2659 MED-2661 MED-2662,salmon,0.6874759014482252,850,-840
+"Who gives better advice, pharmacists or health food store employees?",MED-4370 MED-4575 MED-4371 MED-4372 MED-4373 MED-4374 MED-4598 MED-4599 MED-4673 MED-4674,Pharmacists Versus Health Food Store Employees: Who Gives Better Advice?,0.9258076892725626,43,-33
+You can keep your hands warm by using citrus.,MED-3473 MED-3474 MED-3475 MED-3476 MED-3477 MED-3478 MED-3479 MED-3480 MED-3481 MED-3482,Keeping Your Hands Warm With Citrus,0.8810826439995132,248,-238
+The actual benefit of diet versus drugs is the same.,MED-1486 MED-1487 MED-1488 MED-1489 MED-1490 MED-2109 MED-2110 MED-2111 MED-2112 MED-4255,The Actual Benefit of Diet vs. Drugs,0.8054388304754301,149,-139
+Psoriasis can be treated by adopting plant-based diets.,MED-4103 MED-4104 MED-4853 MED-4843 MED-4844 MED-4845 MED-4846 MED-4847 MED-4848 MED-4849,Plant-Based Diets for Psoriasis,0.8040221037794181,1240,-1230
+The norovirus is a type of virus.,MED-2747 MED-2748 MED-2749 MED-4726 MED-3935 MED-3936 MED-3937 MED-3938 MED-3939 MED-3940,norovirus,0.6162783909704515,142,-132
+Is distilled fish oil free of toxins?,MED-4729 MED-4730 MED-4731 MED-4732 MED-1831 MED-1832 MED-1833 MED-1834 MED-5092 MED-2750,Is Distilled Fish Oil Toxin-Free?,0.9573657502513597,166,-156
+Ergothioneine is a compound that is needed in the body.,MED-4165 MED-3707 MED-4539 MED-4540 MED-4541 MED-4650 MED-4649 MED-4651 MED-2938 MED-2945,ergothioneine,0.66612093162448,173,-163
+The process of altering genes through genetic manipulation.,MED-4753 MED-4757 MED-4755 MED-4756 MED-1725 MED-1726 MED-2763 MED-1728 MED-1729 MED-1730,genetic manipulation,0.7289364884842355,121,-111
+The actual benefit of diet compared to drugs is what?,MED-1486 MED-1487 MED-1488 MED-1489 MED-1490 MED-2109 MED-2110 MED-2111 MED-2112 MED-4255,The Actual Benefit of Diet vs. Drugs,0.8835268417135604,167,-157
+Are there any subsidies available?,MED-2722 MED-2488 MED-2489 MED-2616 MED-2617 MED-2618 MED-2619 MED-2725 MED-2726 MED-2763,subsidies,0.6107963369694132,297,-287
+Medical ethics is the ethical principles and moral values that guide healthcare professionals decision-making and conduct.,MED-2527 MED-2524 MED-2525 MED-2526 MED-2528 MED-2529 MED-2530 MED-3619 MED-3601 MED-3602,medical ethics,0.6578551278101133,219,-209
+The Philippines is a country.,MED-3982 MED-3983 MED-3984 MED-4000 MED-4002 MED-5016 MED-4005 MED-4007 MED-4001 MED-4004,philippines,0.6727729151441821,255,-245
+"Adenovirus 36 is related to childhood obesity, also known as Infectobesity.",MED-1796 MED-1797 MED-1798 MED-1799 MED-1800 MED-1801 MED-1802 MED-1803 MED-1804 MED-4767,Infectobesity: Adenovirus 36 and Childhood Obesity,0.8330853912662918,616,-606
+Diet has the potential to prevent strokes.,MED-4106 MED-4103 MED-4104 MED-4853 MED-4107 MED-4299 MED-4522 MED-4545 MED-1231 MED-1232,Preventing Strokes with Diet,0.8088535083871379,298,-288
+The study about womens health in Iowa is called Iowa Womens Health Study.,MED-2757 MED-2758 MED-2762 MED-2759 MED-2760 MED-2761 MED-3238 MED-3241 MED-3697 MED-3699,Iowa Women’s Health Study,0.7467893154510838,912,-902
+Dragon fruit is beneficial for your health.,MED-1574 MED-1575 MED-1576 MED-1577 MED-1578 MED-1579 MED-1580 MED-1581 MED-1582 MED-1789,Is Dragon Fruit Good For You?,0.7197676903666008,133,-123
+Which vitamin supplements are worth taking?,MED-5128 MED-5129 MED-5130 MED-5131 MED-5132 MED-5133 MED-5134 MED-5135 MED-2938 MED-2939,Vitamin Supplements Worth Taking,0.8940925659807826,104,-94
+Peanut butter is being requested.,MED-3369 MED-3370 MED-3372 MED-3376 MED-3377 MED-2150 MED-4646 MED-2152 MED-2153 MED-3371,peanut butter,0.6441449607622184,190,-180
+What is the state of health in the uterus?,MED-3503 MED-3504 MED-3794 MED-557 MED-4753 MED-4757 MED-4755 MED-4756 MED-4938 MED-4939,uterine health,0.7540266684331667,801,-791
+What is benzene?,MED-4857 MED-4182 MED-4183 MED-2385 MED-2386 MED-2395 MED-2388 MED-2389 MED-2396 MED-2391,benzene,0.7268726845174643,92,-82
+Taro is being referred to.,MED-4635 MED-4640 MED-2185 MED-2200 MED-2201 MED-2188 MED-2189 MED-2202 MED-2191 MED-2203,taro,0.756794437284247,264,-254
+"The query seems to be incomplete as it only includes the term ""thiamine."" Please provide more context or rephrase the question for further assistance.",MED-3148 MED-3149 MED-4313 MED-4609 MED-4613 MED-4617 MED-4612 MED-3137 MED-3138 MED-3139,thiamine,0.5983035904987307,100,-90
+What is Chanterelle mushrooms.,MED-4650 MED-3314 MED-3306 MED-3307 MED-3316 MED-3311 MED-3292 MED-3317 MED-3294 MED-3320,chanterelle mushrooms,0.7234056494412503,142,-132
+The query of whether Milk and Mucus is a myth.,MED-4677 MED-1223 MED-1224 MED-5239 MED-1226 MED-1227 MED-2126 MED-1229 MED-1230 MED-1337,Is Milk and Mucus a Myth?,0.8598728431385187,153,-143
+What is the healthiest sweetener?,MED-5056 MED-3742 MED-2826 MED-2827 MED-2830 MED-2831 MED-4523 MED-2966 MED-2967 MED-2968,The Healthiest Sweetener,0.8475864560330391,146,-136
+The red tea consists of what?,MED-3918 MED-3919 MED-3920 MED-3921 MED-3922 MED-3923 MED-3924 MED-4864 MED-5122 MED-5120,red tea,0.7297974061298085,158,-148
+IGF-1 is an abbreviation referring to a certain query.,MED-2513 MED-2502 MED-2498 MED-2504 MED-2505 MED-2507 MED-5239 MED-2509 MED-2519 MED-2510,IGF-1,0.688745826723066,289,-279
+Fat toxicity is the underlying cause of diabetes.,MED-1716 MED-1236 MED-1237 MED-1238 MED-1474 MED-1992 MED-1876 MED-1998 MED-1878 MED-1879,Diabetes as a Disease of Fat Toxicity,0.6957043604461719,248,-238
+Molasses is being referred to.,MED-1491 MED-1492 MED-1493 MED-1494 MED-1495 MED-5056 MED-2522 MED-2999 MED-2997 MED-2765,molasses,0.7403325527566471,354,-344
+Mesquite is a type of tree or shrub.,MED-2675 MED-2676 MED-2677 MED-2678 MED-2679 MED-2674 MED-4391 MED-4392 MED-4393 MED-1491,mesquite,0.7526289824421146,61,-51
+Oral intraepithelial neoplasia is a condition that refers to the presence of abnormal cells within the epithelial layer of the oral cavity.,MED-3714 MED-3715 MED-3716 MED-3717 MED-3718 MED-3719 MED-3720 MED-3721 MED-3697 MED-3698,oral intraepithelial neoplasia,0.8242576613072167,173,-163
+Is pork included in this dish?,MED-3886 MED-3882 MED-3889 MED-3891 MED-2940 MED-2941 MED-2943 MED-2944 MED-2966 MED-2968,pork,0.5042117614527533,514,-504
+Is rapamycin an effective treatment for certain types of cancer?,MED-2513 MED-2502 MED-2498 MED-2504 MED-2505 MED-2507 MED-5239 MED-2509 MED-2519 MED-2510,rapamycin,0.6408813998348408,233,-223
+Restricting caloric intake.,MED-2513 MED-2502 MED-2498 MED-2504 MED-2505 MED-2507 MED-5239 MED-2509 MED-2519 MED-2510,caloric restriction,0.6907611612736064,587,-577
+Has there been any new information or progress regarding the frightening avocado data obtained through in vitro testing?,MED-861 MED-4618 MED-4000 MED-4002 MED-5016 MED-4005 MED-4007 MED-4001 MED-4004 MED-4006,Any update on the scary in vitro avocado data?,0.8662029018340337,83,-73
+Crib death refers to the phenomenon of a baby unexpectedly dying in their crib.,MED-4399 MED-4400 MED-4402 MED-4677 MED-4313 MED-4314 MED-4315 MED-4352 MED-4353 MED-4609,crib death,0.740132972047796,321,-311
+Cholesterol is related to lower back pain.,MED-4423 MED-4424 MED-4425 MED-2109 MED-2110 MED-2111 MED-2112 MED-4255 MED-2524 MED-2525,Cholesterol and Lower Back Pain,0.877278910376859,653,-643
+Insects exist.,MED-3276 MED-3277 MED-3271 MED-3278 MED-3272 MED-3274 MED-3275 MED-3282 MED-1148 MED-1149,insects,0.6485759005479079,166,-156
+Are vegetarians receiving adequate protein intake?,MED-2288 MED-3137 MED-2290 MED-2291 MED-2292 MED-2293 MED-2294 MED-2295 MED-2296 MED-2498,Do Vegetarians Get Enough Protein?,0.8270290510742888,363,-353
+Japan is a country.,MED-2513 MED-2502 MED-2498 MED-2504 MED-2505 MED-2507 MED-5239 MED-2509 MED-2519 MED-2510,Japan,0.5752971424168226,291,-281
+Trans fats are being researched by scientists to determine their impact on human health.,MED-2726 MED-2725 MED-3374 MED-3376 MED-1463 MED-1454 MED-1455 MED-1456 MED-1457 MED-1458,trans fats,0.5259547843580694,114,-104
+What is liver disease?,MED-2527 MED-2675 MED-2676 MED-2677 MED-2678 MED-2679 MED-2780 MED-2810 MED-2787 MED-2788,liver disease,0.747742423383223,470,-460
+"""The Atkins diet is a low-carbohydrate eating plan that helps individuals lose weight.""",MED-2522 MED-2586 MED-2587 MED-2588 MED-2591 MED-3780 MED-3784 MED-1551 MED-1552 MED-1553,Atkins diet,0.6468540181715919,488,-478
+BPA plastic is linked to male sexual dysfunction.,MED-4185 MED-4186 MED-4653 MED-4654 MED-4655 MED-4656 MED-4991 MED-4992 MED-1098 MED-1099,BPA Plastic and Male Sexual Dysfunction,0.8790846019836375,280,-270
+"Magnesium is a chemical element with the symbol ""Mg"" on the periodic table.",MED-3137 MED-3148 MED-3149 MED-4313 MED-1133 MED-1134 MED-1135 MED-1136 MED-1137 MED-1138,magnesium,0.5604698128663405,301,-291
+Comparing caloric restriction with plant-based diets.,MED-1711 MED-1712 MED-2763 MED-1714 MED-1715 MED-1716 MED-1717 MED-1718 MED-1719 MED-1720,Caloric Restriction vs. Plant-Based Diets,0.8898030963289538,1220,-1210
+What is serotonin?,MED-3518 MED-3519 MED-3532 MED-3533 MED-3524 MED-3527 MED-3539 MED-3536 MED-3537 MED-5030,serotonin,0.667373537710491,138,-128
+How much alcohol is safe for breast cancer?,MED-3762 MED-3763 MED-3764 MED-3696 MED-3697 MED-3698 MED-3699 MED-3700 MED-3701 MED-3765,Breast Cancer & Alcohol: How Much is Safe?,0.8575005857477274,251,-241
+Alternative medicine is another term for non-conventional or holistic forms of treatment.,MED-2527 MED-2706 MED-2708 MED-2707 MED-2711 MED-2712 MED-2713 MED-2709 MED-2710 MED-2780,alternative medicine,0.6503100689745593,504,-494
+Bacon that has been enriched with Vitamin C.,MED-4470 MED-3197 MED-3198 MED-1157 MED-1158 MED-2494 MED-1160 MED-1161 MED-1162 MED-1181,Vitamin C-Enriched Bacon,0.8337301855080824,477,-467
+Lyme disease is a medical condition caused by a bacteria transmitted through tick bites.,MED-2355 MED-2362 MED-2363 MED-2364 MED-2365 MED-2369 MED-2337 MED-2338 MED-2339 MED-2340,lyme disease,0.6109623925260825,685,-675
+Dr. Dean Ornish is a renowned individual in his field.,MED-2763 MED-3780 MED-3784 MED-3242 MED-3244 MED-3790 MED-3245 MED-5337 MED-3250 MED-3251,Dr. Dean Ornish,0.7928660525647664,157,-147
+Tufts University is a prestigious academic institution.,MED-762 MED-4247 MED-4642 MED-4643 MED-4644 MED-4776 MED-4777 MED-4778 MED-4779 MED-4780,Tufts,0.7032276261465376,296,-286
+Diet can be utilized to prevent Ulcerative Colitis.,MED-1418 MED-1419 MED-1420 MED-1421 MED-3964 MED-4342 MED-1581 MED-1425 MED-1426 MED-1574,Preventing Ulcerative Colitis with Diet,0.834221671563047,220,-210
+Does Caffeinated Tea Cause Dehydration?,MED-4331 MED-4438 MED-4439 MED-4602 MED-5052 MED-5058 MED-4328 MED-4329 MED-4330 MED-4332,Is Caffeinated Tea Dehydrating?,0.9416246975719084,150,-140
+Sulfur is being inquired about.,MED-717 MED-718 MED-719 MED-720 MED-721 MED-722 MED-723 MED-724 MED-5204 MED-1184,sulfur,0.6598246784080515,150,-140
+Is D2 (ergocalciferol) inferior to D3 (cholecalciferol) as a preferable form of vitamin D?,MED-961 MED-962 MED-5128 MED-5129 MED-5130 MED-5131 MED-5132 MED-5133 MED-5134 MED-5135,Is vitamin D3 (cholecalciferol) preferable to D2 (ergocalciferol)?,0.8652323038537917,52,-42
+Can plants and supplements be used to treat asthma?,MED-2445 MED-2446 MED-2458 MED-2448 MED-2449 MED-2450 MED-2451 MED-2452 MED-2453 MED-2472,Treating Asthma With Plants vs. Supplements?,0.8599697796703594,187,-177
+There are bagels.,MED-3146 MED-3145 MED-2033 MED-2013 MED-2014 MED-2027 MED-2016 MED-2037 MED-2018 MED-2019,bagels,0.7543783798417305,773,-763
+Parkinsons disease is a neurodegenerative disorder affecting movement and causing symptoms such as tremors and rigidity.,MED-1166 MED-1167 MED-1178 MED-1169 MED-1170 MED-1171 MED-1172 MED-1173 MED-1174 MED-1175,Parkinson's disease,0.631775720854662,451,-441
+What is the bioavailability?,MED-1847 MED-1848 MED-1849 MED-1850 MED-1851 MED-1852 MED-2185 MED-2200 MED-2201 MED-2188,bioavailability,0.7587779846368535,169,-159
+Cauliflower is being referred to.,MED-3103 MED-3107 MED-3106 MED-3108 MED-3109 MED-3112 MED-3238 MED-3241 MED-3242 MED-3244,cauliflower,0.7236529443337117,376,-366
+Psoriasis can be effectively managed by adopting plant-based diets.,MED-4103 MED-4104 MED-4853 MED-4843 MED-4844 MED-4845 MED-4846 MED-4847 MED-4848 MED-4849,Plant-Based Diets for Psoriasis,0.7938589920228298,1251,-1241
+Bone fractures occur when there is a break in the bone.,MED-2988 MED-2980 MED-2990 MED-2986 MED-2985 MED-2987 MED-332 MED-3090 MED-334 MED-335,bone fractures,0.6783653221134054,265,-255
+Can probiotics be used to prevent the common cold?,MED-3680 MED-3681 MED-3682 MED-3683 MED-3693 MED-3685 MED-3686 MED-3687 MED-3671 MED-3676,Preventing the Common Cold with Probiotics?,0.8615650752591336,223,-213
+What is titanium dioxide?,MED-3960 MED-3961 MED-3962 MED-3963 MED-3964 MED-3965 MED-3966 MED-3967 MED-3968 MED-3969,titanium dioxide,0.7758508752265292,136,-126
+The Dietary Theory of Alzheimers suggests a relationship between diet and Alzheimers.,MED-4790 MED-2215 MED-726 MED-4671 MED-743 MED-744 MED-745 MED-746 MED-4193 MED-3585,Dietary Theory of Alzheimer's,0.8358048927320272,261,-251
+Suppositories are medicinal substances that are to be inserted into the rectum or vagina.,MED-1240 MED-1241 MED-1242 MED-1243 MED-1244 MED-1245 MED-1246 MED-1247 MED-1248 MED-3688,suppositories,0.7084148675259937,948,-938
+What are grapes?,MED-2663 MED-2664 MED-2665 MED-4860 MED-2668 MED-2670 MED-2669 MED-2797 MED-2809 MED-2799,grapes,0.7137301921000574,320,-310
+Antinutrients refer to substances that hinder the absorption or utilization of nutrients in the body.,MED-2575 MED-2580 MED-2571 MED-2583 MED-2574 MED-2568 MED-2988 MED-2559 MED-4319 MED-2570,antinutrients,0.7107428876751076,773,-763
+The bioavailability is the amount of a substance that is able to enter the bloodstream and have an active effect on the body.,MED-1847 MED-1848 MED-1849 MED-1850 MED-1851 MED-1852 MED-2185 MED-2200 MED-2201 MED-2188,bioavailability,0.6706076093612046,124,-114
+Organic foods possess a higher level of safety compared to non-organic foods.,MED-1166 MED-1167 MED-1178 MED-1169 MED-1170 MED-1171 MED-1172 MED-1173 MED-1174 MED-1175,Are Organic Foods Safer?,0.7243856062042213,297,-287
+Insects are being referred to.,MED-3276 MED-3277 MED-3271 MED-3278 MED-3272 MED-3274 MED-3275 MED-3282 MED-1148 MED-1149,insects,0.6687423299982671,293,-283
+Red tea is being referred to.,MED-3918 MED-3919 MED-3920 MED-3921 MED-3922 MED-3923 MED-3924 MED-4864 MED-5122 MED-5120,red tea,0.7968949345165897,255,-245
+Coffee is a beverage made from brewing ground coffee beans.,MED-2675 MED-2676 MED-2677 MED-2678 MED-2679 MED-3639 MED-1621 MED-1622 MED-1623 MED-1624,coffee,0.4690626261406676,377,-367
+Phytates are used for the treatment of cancer.,MED-2568 MED-4319 MED-2570 MED-2571 MED-2572 MED-2573 MED-2574 MED-2575 MED-2988 MED-2577,Phytates for the Treatment of Cancer,0.8878291189133758,192,-182
+The object is packed with lead.,MED-4200 MED-4201 MED-4202 MED-4531 MED-4944 MED-4333 MED-4337 MED-5322 MED-5323 MED-5324,Filled Full of Lead,0.6209417974374315,250,-240
+Do krill oil supplements outperform fish oil capsules?,MED-927 MED-928 MED-4936 MED-930 MED-931 MED-5091 MED-5092 MED-5093 MED-2750 MED-2751,Are krill oil supplements better than fish oil capsules?,0.9160547137127482,132,-122
+The role of diet in breast cancer.,MED-4650 MED-4747 MED-4748 MED-4749 MED-4750 MED-4751 MED-4771 MED-4783 MED-5116 MED-4785,Breast Cancer and Diet,0.7626277464011658,279,-269
+Multivitamins have positive effects on your health.,MED-4925 MED-2759 MED-2760 MED-2761 MED-4645 MED-4646 MED-4647 MED-2700 MED-2695 MED-2697,Are Multivitamins Good For You?,0.6622897317021113,128,-118
+The condition of the soil is important for its overall health.,MED-4771 MED-5128 MED-5129 MED-5130 MED-5131 MED-5132 MED-5133 MED-5134 MED-5135 MED-4455,soil health,0.6575119233995973,401,-391
+The practices used in factory farming.,MED-2700 MED-2695 MED-2697 MED-2703 MED-2698 MED-2699 MED-2705 MED-4131 MED-2740 MED-2741,factory farming practices,0.786432201938154,1019,-1009
+Native Americans are a group of people without altering their meaning.,MED-2999 MED-2997 MED-2765 MED-3001 MED-3000 MED-3875 MED-3876 MED-3877 MED-4233 MED-1412,Native Americans,0.6099708044747145,365,-355
+The concept being referred to is memory.,MED-2644 MED-2646 MED-2651 MED-118 MED-2652 MED-2653 MED-2655 MED-2659 MED-2661 MED-2662,memory,0.45657982089095006,620,-610
+Pineapples are being referred to.,MED-3742 MED-3743 MED-3744 MED-3745 MED-3746 MED-3747 MED-3748 MED-4585 MED-2513 MED-2502,pineapples,0.7299216985080321,228,-218
+Does Caramel Color have carcinogenic properties?,MED-2992 MED-2993 MED-2994 MED-3085 MED-3086 MED-3087 MED-3088 MED-3091 MED-3092 MED-3095,Is Caramel Color Carcinogenic?,0.9374225557410334,203,-193
+Betel nuts are a type of seed used for chewing.,MED-5017 MED-2150 MED-4646 MED-2152 MED-2153 MED-2592 MED-2593 MED-2594 MED-2595 MED-2596,betel nuts,0.782031178592185,77,-67
+Where to find kidney beans?,MED-2966 MED-2968 MED-2970 MED-2972 MED-4981 MED-2140 MED-2141 MED-4319 MED-2143 MED-2144,kidney beans,0.7222619580765532,126,-116
+The individuals who should exercise caution with curcumin are?,MED-2780 MED-2810 MED-2787 MED-2788 MED-2777 MED-2816 MED-2800 MED-2790 MED-2791 MED-2792,Who Should be Careful About Curcumin?,0.8552121624119694,348,-338
+The storage of dioxins in our own fat may result in an increased risk of diabetes.,MED-2394 MED-2395 MED-2397 MED-2404 MED-2400 MED-2385 MED-2386 MED-2388 MED-2389 MED-2396,Dioxins Stored in Our Own Fat May Increase Diabetes Risk,0.8845524842457906,244,-234
+Where is Panama?,MED-5041 MED-5042 MED-4933 MED-4934 MED-4935 MED-4936 MED-4937 MED-2736 MED-5169 MED-2745,Panama,0.7043220891237971,203,-193
+Green Overdose is happening.,MED-3810 MED-3109 MED-3098 MED-3099 MED-3100 MED-3112 MED-3102 MED-3103 MED-3709 MED-3105,Overdosing on Greens,0.6892494719885784,423,-413
+Galactosemia is a condition related to the bodys inability to process galactose.,MED-1337 MED-1338 MED-1339 MED-1340 MED-1341 MED-2337 MED-2338 MED-2339 MED-2340 MED-2341,galactosemia,0.6742623327480176,133,-123
+Cows milk and childhood constipation are related.,MED-2053 MED-2054 MED-2055 MED-2056 MED-2057 MED-2058 MED-2059 MED-2060 MED-2061 MED-2062,Childhood Constipation and Cow’s Milk,0.7980787023788222,198,-188
+"The Dietary Guidelines cover a range of foods, including dairies and berries.",MED-5331 MED-2999 MED-2997 MED-2765 MED-3001 MED-2966 MED-2968 MED-2970 MED-2972 MED-4981,Dietary Guidelines: From Dairies to Berries,0.7889030804415809,1014,-1004
+What is mesquite?,MED-2675 MED-2676 MED-2677 MED-2678 MED-2679 MED-2674 MED-4391 MED-4392 MED-4393 MED-1491,mesquite,0.7906454003263776,212,-202
+The size of ones stool has a correlation with the risk of developing breast cancer.,MED-4516 MED-4517 MED-4518 MED-4522 MED-4635 MED-4640 MED-4637 MED-4638 MED-4639 MED-4641,Stool Size and Breast Cancer Risk,0.8514604280896585,291,-281
+Diets that are low in carbohydrates.,MED-2586 MED-2587 MED-2588 MED-2591 MED-1463 MED-1464 MED-1465 MED-1466 MED-1467 MED-1468,low-carb diets,0.7384109724807505,1205,-1195
+Parkinsons disease is a neurological disorder.,MED-1166 MED-1167 MED-1178 MED-1169 MED-1170 MED-1171 MED-1172 MED-1173 MED-1174 MED-1175,Parkinson's disease,0.6519897490627437,480,-470
+What is Flax oil.,MED-4000 MED-4002 MED-5016 MED-4005 MED-4007 MED-4001 MED-4004 MED-4006 MED-4832 MED-4833,flax oil,0.7647468413324177,287,-277
+Rhabdomyolysis is a medical condition involving the breakdown of muscle tissue.,MED-4828 MED-4829 MED-4830 MED-4958 MED-4959 MED-4960 MED-4961 MED-5025 MED-3178 MED-3169,rhabdomyolysis,0.676962574275155,356,-346
+Smoking is being referred to.,MED-2522 MED-2606 MED-2607 MED-2608 MED-2816 MED-2675 MED-2676 MED-2677 MED-2678 MED-2679,smoking,0.6313383429014234,537,-527
+Storing dioxins in our own fat could potentially raise the risk of developing diabetes.,MED-2394 MED-2395 MED-2397 MED-2404 MED-2400 MED-2385 MED-2386 MED-2388 MED-2389 MED-2396,Dioxins Stored in Our Own Fat May Increase Diabetes Risk,0.8843595601517529,217,-207
+Anisakis is a parasitic worm that can be found in certain fish species.,MED-2337 MED-2338 MED-2340 MED-2355 MED-2349 MED-4742 MED-4743 MED-3169 MED-3170 MED-3171,anisakis,0.7217262671635298,140,-130
+Thiamine is the subject of the following query.,MED-3148 MED-3149 MED-4313 MED-4609 MED-4613 MED-4617 MED-4612 MED-3137 MED-3138 MED-3139,thiamine,0.6760644164380304,88,-78
+Goji berries are being sought after.,MED-2882 MED-2898 MED-2884 MED-2885 MED-2886 MED-2888 MED-2889 MED-2895 MED-2926 MED-2922,goji berries,0.7208342456082282,294,-284
+Fenugreek Seeds offer numerous benefits.,MED-3811 MED-5341 MED-5337 MED-4464 MED-4465 MED-4468 MED-4469 MED-4543 MED-4538 MED-4539,Benefits of Fenugreek Seeds,0.8248835974297158,225,-215
+Leeks are a type of vegetable.,MED-4859 MED-2513 MED-2502 MED-2498 MED-2504 MED-2505 MED-2507 MED-5239 MED-2509 MED-2519,leeks,0.7162147704262652,1205,-1195
+The comparison is between calcium derived from plants and calcium derived from cows.,MED-5108 MED-5109 MED-1703 MED-1699 MED-1700 MED-1701 MED-1702 MED-1762 MED-1763 MED-1764,Plant vs. Cow Calcium,0.7609260403664861,386,-376
+St. Johns wort is being referred to.,MED-3918 MED-3919 MED-3920 MED-3921 MED-3922 MED-3923 MED-3924 MED-4371 MED-4372 MED-4188,St. John's wort,0.7288914451131863,141,-131
+"Vaccines and food contain aluminum, but in different amounts.",MED-4908 MED-4909 MED-2248 MED-2249 MED-2250 MED-2251 MED-2252 MED-2253 MED-2254 MED-2255,Aluminum in Vaccines vs. Food,0.7876866527385543,206,-196
+Finland is a country in northern Europe.,MED-1265 MED-1266 MED-1267 MED-1268 MED-1278 MED-1282 MED-1271 MED-1272 MED-1273 MED-1274,Finland,0.6894602493348368,323,-313
+Excess estrogen can be relieved.,MED-4642 MED-4643 MED-4644 MED-3762 MED-3763 MED-3764 MED-1375 MED-1362 MED-1363 MED-1383,Relieving Yourself of Excess Estrogen,0.7482331925054095,311,-301
+Can the use of cholesterol statin drugs lead to breast cancer?,MED-2427 MED-10 MED-2429 MED-2430 MED-2431 MED-14 MED-2432 MED-2428 MED-2440 MED-2434,Do Cholesterol Statin Drugs Cause Breast Cancer?,0.8940763842144018,234,-224
+The cause behind Americas obesity problem is what?,MED-2717 MED-2715 MED-2716 MED-2718 MED-2721 MED-2720 MED-2719 MED-2723 MED-2724 MED-2722,What’s Driving America’s Obesity Problem?,0.7860610961127246,811,-801
+The best treatment for constipation is...,MED-3904 MED-5175 MED-4810 MED-5322 MED-5323 MED-5324 MED-5325 MED-5326 MED-5327 MED-5328,Best Treatment for Constipation,0.7662845940504621,188,-178
+Benzene is a chemical compound with a cyclic structure consisting of six carbon atoms.,MED-4857 MED-4182 MED-4183 MED-2385 MED-2386 MED-2395 MED-2388 MED-2389 MED-2396 MED-2391,benzene,0.6774025750612057,106,-96
+The Enzyme Myth is true on certain occasions.,MED-4454 MED-5204 MED-1184 MED-1185 MED-1186 MED-1187 MED-1188 MED-1582 MED-1412 MED-1413,Sometimes the Enzyme Myth Is True,0.8593170228676735,310,-300
+What is the best dosage and source of phytosterols for optimal results?,MED-4295 MED-4846 MED-4296 MED-4298 MED-4300 MED-4301 MED-4637 MED-4638 MED-4639 MED-4640,Optimal Phytosterol Dose and Source,0.8670604362496582,106,-96
+What do leeks refer to?,MED-4859 MED-2824 MED-2815 MED-2794 MED-2816 MED-2988 MED-2980 MED-2990 MED-2986 MED-2985,leeks,0.7011753056866836,412,-402
+Does drinking caffeinated tea cause dehydration?,MED-4331 MED-4438 MED-4439 MED-4602 MED-5052 MED-5058 MED-4328 MED-4329 MED-4330 MED-4332,Is Caffeinated Tea Dehydrating?,0.9087005239881016,149,-139
+Gaining weight.,MED-3866 MED-3869 MED-1342 MED-1343 MED-1344 MED-1345 MED-1355 MED-1347 MED-1348 MED-1349,weight gain,0.71057897546621,448,-438
+Neurocysticercosis is a medical condition involving cysts in the brain.,MED-3178 MED-3169 MED-3172 MED-3181 MED-3174 MED-3175 MED-3176 MED-3182 MED-3170 MED-3171,neurocysticercosis,0.7083739849801648,433,-423
+Is the safety of annatto food coloring being questioned?,MED-906 MED-4936 MED-4932 MED-5062 MED-5063 MED-3378 MED-3380 MED-3382 MED-2616 MED-2617,Is annatto food coloring safe?,0.8592091613527234,124,-114
+300 foods have been assessed for their antioxidant content.,MED-4544 MED-2008 MED-2009 MED-2010 MED-2011 MED-2830 MED-2831 MED-3742 MED-3743 MED-3744,Antioxidant Content of 300 Foods,0.7154833658990267,148,-138
+Processed foods that are extremely processed.,MED-2988 MED-2577 MED-2578 MED-2572 MED-2581 MED-2582 MED-2584 MED-2726 MED-2725 MED-2999,processed foods,0.6995397988555433,857,-847
+What is magnesium?,MED-3137 MED-3148 MED-3149 MED-4313 MED-1133 MED-1134 MED-1135 MED-1136 MED-1137 MED-1138,magnesium,0.6957455701267513,161,-151
+What is tempeh?,MED-4440 MED-4785 MED-4471 MED-4472 MED-4976 MED-4546 MED-4547 MED-5002 MED-5078 MED-3136,tempeh,0.7252282405642556,161,-151
+Dragons Blood is being sought after.,MED-4525 MED-4526 MED-4527 MED-1574 MED-1575 MED-1576 MED-1577 MED-1578 MED-1579 MED-1580,Dragon's Blood,0.7563575307576862,169,-159
+What is Lindane?,MED-5102 MED-5104 MED-2385 MED-2386 MED-2395 MED-2388 MED-2389 MED-2396 MED-2391 MED-2407,Lindane,0.8585459499459017,109,-99
+The transition from the lab to the track.,MED-4508 MED-4504 MED-4505 MED-4506 MED-3156 MED-3157 MED-3158 MED-3450 MED-3451 MED-3161,Out of the Lab Onto the Track,0.8120465417954689,197,-187
+Phytates are used to treat cancer.,MED-2568 MED-4319 MED-2570 MED-2571 MED-2572 MED-2573 MED-2574 MED-2575 MED-2988 MED-2577,Phytates for the Treatment of Cancer,0.873076759717393,198,-188
+The Bush administration was in power for eight years.,MED-4991 MED-4992 MED-2303 MED-2304 MED-2305 MED-2306 MED-5303 MED-2297 MED-2298 MED-2299,Bush administration,0.6096690334402739,160,-150
+"""What is milk?""",MED-2644 MED-2646 MED-2651 MED-118 MED-2652 MED-2653 MED-2655 MED-2659 MED-2661 MED-2662,milk,0.5885392411411381,530,-520
+Is it true that organic foods are safer?,MED-1166 MED-1167 MED-1178 MED-1169 MED-1170 MED-1171 MED-1172 MED-1173 MED-1174 MED-1175,Are Organic Foods Safer?,0.9087011714679183,283,-273
+Tumors can be deprived of their blood supply.,MED-3549 MED-3550 MED-3551 MED-3554 MED-3555 MED-3548 MED-3552 MED-3553 MED-4089 MED-4090,Starving Tumors of Their Blood Supply,0.7956119911270689,234,-224
+Do eggs affect arterial function?,MED-2370 MED-2371 MED-2372 MED-4324 MED-3197 MED-3198 MED-4300 MED-4301 MED-4602 MED-4676,Eggs and Arterial Function,0.8612878542668688,185,-175
+The impact of vegetables on cancer.,MED-2926 MED-2922 MED-3465 MED-2923 MED-2925 MED-1527 MED-1528 MED-1529 MED-1530 MED-1531,Veggies vs. Cancer,0.7277714396831845,258,-248
+The dietary treatment for Crohns Disease involves making specific changes to ones diet.,MED-4342 MED-4349 MED-4347 MED-4627 MED-4350 MED-4628 MED-4629 MED-4630 MED-4631 MED-4877,Dietary Treatment of Crohn's Disease,0.791685305796223,195,-185
+Antioxidant-rich spices can neutralize the consequences of consuming a high-fat meal.,MED-759 MED-760 MED-4390 MED-4464 MED-4465 MED-4516 MED-4517 MED-4518 MED-4522 MED-4520,Can antioxidant-rich spices counteract the effects of a high-fat meal?,0.8570469636461306,355,-345
+The act of altering genetic material.,MED-4753 MED-4757 MED-4755 MED-4756 MED-2675 MED-2676 MED-2677 MED-2678 MED-2679 MED-2674,genetic manipulation,0.6054682836251244,385,-375
+Yale: please rephrase the query mentioned in your task requirements.,MED-2763 MED-4324 MED-3688 MED-3689 MED-3690 MED-3691 MED-3692 MED-3693 MED-3694 MED-3695,Yale,0.431246889863213,311,-301
+The heart nerve control is being boosted.,MED-5026 MED-5027 MED-2896 MED-4384 MED-2898 MED-2899 MED-2900 MED-2901 MED-3422 MED-3423,Boosting Heart Nerve Control,0.830804327313267,1010,-1000
+Multiple Myeloma is related to meat intake.,MED-4820 MED-4821 MED-4436 MED-4437 MED-5032 MED-5033 MED-5034 MED-5035 MED-2824 MED-2815,Meat & Multiple Myeloma,0.7754922020364802,301,-291
+Cinnamon is a spice widely used for its distinctive flavor in various dishes and beverages.,MED-2827 MED-2830 MED-2826 MED-3545 MED-3173 MED-3541 MED-3546 MED-3542 MED-3543 MED-3547,cinnamon,0.6858363611152358,301,-291
+Galactosemia is a condition involving the inability to process galactose.,MED-1337 MED-1338 MED-1339 MED-1340 MED-1341 MED-3757 MED-3751 MED-3761 MED-717 MED-718,galactosemia,0.7166902514905559,149,-139
+What is the optimal dose of phytosterols?,MED-4846 MED-4295 MED-4300 MED-4301 MED-4352 MED-4353 MED-4423 MED-4424 MED-4425 MED-4560,Optimal Phytosterol Dose,0.9071397083754386,118,-108
+Worms are what the query pertains to.,MED-3169 MED-3170 MED-3171 MED-3172 MED-3173 MED-3174 MED-3175 MED-3176 MED-3177 MED-3178,worms,0.6146696302485797,118,-108
+Breast cancer is caused by cholesterol statin drugs.,MED-2427 MED-10 MED-2429 MED-2430 MED-2431 MED-14 MED-2432 MED-2428 MED-2440 MED-2434,Do Cholesterol Statin Drugs Cause Breast Cancer?,0.7826818194093317,656,-646
+What is the appropriate way to consume probiotics?,MED-3679 MED-3671 MED-3672 MED-3673 MED-3674 MED-3675 MED-3676 MED-3677 MED-3678 MED-3680,How Should I Take Probiotics?,0.8133259482377877,219,-209
+What is Heme iron,MED-1401 MED-1402 MED-1366 MED-1403 MED-1404 MED-1405 MED-1406 MED-1407 MED-1408 MED-1409,heme iron,0.843478006300538,168,-158
+Taking vitamin supplements is worth it.,MED-5128 MED-5129 MED-5130 MED-5131 MED-5132 MED-5133 MED-5134 MED-5135 MED-2938 MED-2939,Vitamin Supplements Worth Taking,0.8059650286920372,470,-460
+ADHD is related to artificial food colors.,MED-3378 MED-3379 MED-3380 MED-3381 MED-3382 MED-5062 MED-3369 MED-3370 MED-3371 MED-3372,Artificial Food Colors and ADHD,0.7642298803310932,124,-114
+The progression of cancer is not affected by saturated fat.,MED-1527 MED-1528 MED-1529 MED-1530 MED-1531 MED-1532 MED-1559 MED-1560 MED-3557 MED-3242,Saturated Fat & Cancer Progression,0.7152130308252124,270,-260
+Annatto food colorings safety is assured.,MED-906 MED-4936 MED-4932 MED-4403 MED-5062 MED-5063 MED-3378 MED-3380 MED-3382 MED-2616,Is annatto food coloring safe?,0.8344485754579111,120,-110
+What are rickets?,MED-4575 MED-4573 MED-4574 MED-4665 MED-4666 MED-4667 MED-4668 MED-2575 MED-2580 MED-2571,rickets,0.7564718749959178,225,-215
+Does white meat or dark meat have more antibiotics?,MED-4166 MED-3693 MED-3690 MED-3694 MED-4167 MED-4168 MED-4433 MED-4436 MED-4437 MED-3886,More Antibiotics In White Meat or Dark Meat?,0.9039423015039508,200,-190
+What is the definition of cadaverine?,MED-4546 MED-4547 MED-4958 MED-4959 MED-4960 MED-4961 MED-3657 MED-5165 MED-3815 MED-3816,cadaverine,0.7737529536002299,103,-93
+What is vitamin K?,MED-5108 MED-5109 MED-4194 MED-4195 MED-4196 MED-4197 MED-4466 MED-3148 MED-3149 MED-4313,vitamin K,0.7230375552462267,335,-325
+Sugar water may be better than apple juice.,MED-4091 MED-4089 MED-5071 MED-4090 MED-4413 MED-4585 MED-4687 MED-4689 MED-4590 MED-3679,Apple Juice May Be Worse Than Sugar Water,0.7055176285540787,218,-208
+Veal is a type of meat derived from calves.,MED-2494 MED-2495 MED-2496 MED-2493 MED-2497 MED-2513 MED-2502 MED-2498 MED-2504 MED-2505,meat,0.4138774301315322,1231,-1221
+Doctors responded to being named a leading killer in a certain way.,MED-5343 MED-5344 MED-5345 MED-5346 MED-5347 MED-1487 MED-1482 MED-1483 MED-1484 MED-1490,How Doctors Responded to Being Named a Leading Killer,0.8883676753512333,79,-69
+Cholesterol may be related to lower back pain.,MED-4423 MED-4424 MED-4425 MED-2109 MED-2110 MED-2111 MED-2112 MED-4255 MED-2524 MED-2525,Cholesterol and Lower Back Pain,0.8593220091585916,653,-643
+Heart disease prevention faces obstacles.,MED-2529 MED-2524 MED-2525 MED-2527 MED-2530 MED-2528 MED-2427 MED-2428 MED-2429 MED-2430,Barriers to Heart Disease Prevention,0.7541269935374648,970,-960
+Citrus has the potential to assist in maintaining warm hands.,MED-3474 MED-3479 MED-3482 MED-3484 MED-3485 MED-3477 MED-3467 MED-3473 MED-3469 MED-3481,How Citrus Might Help Keep Your Hands Warm,0.8479783756399599,425,-415
+Autophagy is exploited to extend lifespan.,MED-2513 MED-5237 MED-2517 MED-2518 MED-2519 MED-2520 MED-2521 MED-2514 MED-2943 MED-5322,Exploiting Autophagy to Live Longer,0.8114302459270009,308,-298
+salmon uses?,MED-2644 MED-2646 MED-2651 MED-118 MED-2652 MED-2653 MED-2655 MED-2659 MED-2661 MED-2662,salmon,0.7075564078958924,376,-366
+Vegetables are pitted against cancer.,MED-2926 MED-2922 MED-3465 MED-2923 MED-2925 MED-1527 MED-1528 MED-1529 MED-1530 MED-1531,Veggies vs. Cancer,0.7837180934383609,284,-274
+What is Fosamax used for?,MED-2988 MED-2980 MED-2990 MED-2986 MED-2985 MED-2987 MED-1486 MED-1487 MED-1488 MED-1489,Fosamax,0.7540198163040703,263,-253
+Can you provide information on Finland?,MED-1265 MED-1266 MED-1267 MED-1268 MED-1278 MED-1282 MED-1271 MED-1272 MED-1273 MED-1274,Finland,0.6355337472828575,364,-354
+What is neurocysticercosis?,MED-3178 MED-3169 MED-3172 MED-3181 MED-3174 MED-3175 MED-3176 MED-3182 MED-3170 MED-3171,neurocysticercosis,0.8074472378596528,118,-108
+Czechoslovakia was a country in Central Europe.,MED-4184 MED-5140 MED-2248 MED-2249 MED-2250 MED-2251 MED-2252 MED-2253 MED-2254 MED-2255,Czechoslovakia,0.750211903658248,307,-297
+Food dyes have a potential relationship with ADHD.,MED-3378 MED-3380 MED-5062 MED-3382 MED-2938 MED-2939 MED-2940 MED-2941 MED-2942 MED-2943,Food Dyes and ADHD,0.8088390305829855,210,-200
+There have been incidents involving unexpected or undesirable events that cause harm or damage.,MED-4222 MED-2988 MED-2577 MED-2578 MED-2572 MED-2581 MED-2582 MED-2584 MED-2606 MED-2607,accidents,0.48772170233093287,649,-639
+Fava beans.,MED-4281 MED-4859 MED-3584 MED-3580 MED-3581 MED-3582 MED-3583 MED-4149 MED-4316 MED-4317,fava beans,0.9102877919746469,517,-507
+The cause of Americas obesity problem is what?,MED-2717 MED-2715 MED-2716 MED-2718 MED-2721 MED-2720 MED-2719 MED-2723 MED-2724 MED-2722,What’s Driving America’s Obesity Problem?,0.7915751489351021,803,-793
+What is molasses?,MED-1491 MED-1492 MED-1493 MED-1494 MED-1495 MED-5056 MED-717 MED-718 MED-719 MED-720,molasses,0.7549814423195818,363,-353
+Is fog harmful to fish?,MED-4946 MED-2385 MED-2386 MED-2395 MED-2388 MED-2389 MED-2396 MED-2391 MED-2407 MED-3021,Fish Fog,0.6064405501458804,193,-183
+"Excessive iodine can have negative consequences, just like insufficient iodine.",MED-4660 MED-4666 MED-4662 MED-4663 MED-4664 MED-3441 MED-3442 MED-3443 MED-3444 MED-3445,Too Much Iodine Can Be as Bad as Too Little,0.7303370765495623,69,-59
+Avocados are being referred to/requested.,MED-1463 MED-1454 MED-1455 MED-1456 MED-1457 MED-1458 MED-1459 MED-1460 MED-1461 MED-1474,avocados,0.5883462064372328,204,-194
+Does milk have a positive impact on our bone health?,MED-1337 MED-1338 MED-1339 MED-1340 MED-1341 MED-1557 MED-1558 MED-1762 MED-1763 MED-1764,Is Milk Good for Our Bones?,0.800381496932402,227,-217
+Mevacor is a name of a drug.,MED-4832 MED-4833 MED-4834 MED-4835 MED-398 MED-3200 MED-3201 MED-3202 MED-3203 MED-3209,Mevacor,0.8130015048687402,120,-110
+Identify the barriers that hinder the prevention of heart disease.,MED-2529 MED-2524 MED-2525 MED-2527 MED-2530 MED-2528 MED-2427 MED-2428 MED-2429 MED-2430,Barriers to Heart Disease Prevention,0.7822757533860133,161,-151
+The study known as Harvard Physicians’ Study II.,MED-2757 MED-2758 MED-2762 MED-2759 MED-2760 MED-2761 MED-2663 MED-2664 MED-2665 MED-4860,Harvard Physicians’ Study II,0.8810699381486453,273,-263
+Should I snack or not?,MED-4250 MED-4300 MED-4301 MED-4324 MED-4349 MED-4345 MED-4346 MED-4603 MED-5322 MED-5323,To Snack or Not to Snack?,0.8775995363878136,184,-174
+Industrial toxins refer to harmful substances produced by industries.,MED-2494 MED-2495 MED-2496 MED-2493 MED-2497 MED-2644 MED-2646 MED-2651 MED-118 MED-2652,industrial toxins,0.6952121982648187,458,-448
+Prunes are available.,MED-3896 MED-3897 MED-3906 MED-3908 MED-3900 MED-4289 MED-3910 MED-4715 MED-3904 MED-5175,prunes,0.7478700034704032,182,-172
+What is Splenda?,MED-1574 MED-1575 MED-1576 MED-1577 MED-1578 MED-1579 MED-1580 MED-1581 MED-1582 MED-5053,Splenda,0.7847347070658848,96,-86
+Leucine is a type of amino acid.,MED-2513 MED-2502 MED-2498 MED-2504 MED-2505 MED-2507 MED-5239 MED-2509 MED-2519 MED-2510,leucine,0.6828674220749611,220,-210
+Clinical evidence demonstrates the impact of flaxseeds on breast cancer survival.,MED-3841 MED-3832 MED-3843 MED-3836 MED-3853 MED-3845 MED-3848 MED-3830 MED-3840 MED-3864,Flaxseeds & Breast Cancer Survival: Clinical Evidence,0.8367694191262421,153,-143
+Pesticides are substances used to control or eliminate pests.,MED-2494 MED-2495 MED-2496 MED-2493 MED-2497 MED-2747 MED-2748 MED-2749 MED-3276 MED-3277,pesticides,0.5944773641186228,240,-230
+The Dietary Theory of Alzheimers is not significantly altered in its meaning.,MED-4790 MED-2215 MED-726 MED-4671 MED-743 MED-744 MED-745 MED-746 MED-4193 MED-3585,Dietary Theory of Alzheimer's,0.6913366550057102,219,-209
+Trans fats are a type of fat.,MED-2726 MED-2725 MED-3374 MED-3376 MED-1463 MED-1454 MED-1455 MED-1456 MED-1457 MED-1458,trans fats,0.6374575398121697,741,-731
+The lawsuit against the meat industry is responsible for exposing the connection between chicken and salmonella.,MED-2736 MED-4131 MED-2738 MED-5169 MED-2740 MED-2741 MED-2742 MED-2744 MED-2745 MED-2725,Chicken Salmonella Thanks to Meat Industry Lawsuit,0.7234452025142998,185,-175
+Any feed is unsafe.,MED-4355 MED-4132 MED-3787 MED-3781 MED-3789 MED-3790 MED-3782 MED-3785 MED-3786 MED-3780,Unsafe at Any Feed,0.7723209574119942,123,-113
+It is unsafe in any way or manner for any type of feed.,MED-4355 MED-4132 MED-4354 MED-4427 MED-4428 MED-4429 MED-4594 MED-4593 MED-4596 MED-4805,Unsafe at Any Feed,0.7032361505948077,176,-166
+There is a link between saturated fat and the progression of cancer.,MED-1527 MED-1528 MED-1529 MED-1530 MED-1531 MED-1532 MED-1559 MED-1560 MED-3557 MED-3242,Saturated Fat & Cancer Progression,0.807146943455661,550,-540
+What is the secret of the Kuna Indians?,MED-5041 MED-5042 MED-2222 MED-2223 MED-2224 MED-2225 MED-2226 MED-2227 MED-2228 MED-4286,Kuna Indian Secret,0.6552569041183117,186,-176
+A diet can help in preventing strokes.,MED-4106 MED-4103 MED-4104 MED-4853 MED-4107 MED-4299 MED-4522 MED-4545 MED-1231 MED-1232,Preventing Strokes with Diet,0.8207940179682198,279,-269
+Seafood is being referred to.,MED-2494 MED-2495 MED-2496 MED-2493 MED-2497 MED-2644 MED-2646 MED-2651 MED-118 MED-2652,seafood,0.6760712058967338,458,-448
+The Atkins diet is a low-carbohydrate weight loss program.,MED-2522 MED-2586 MED-2587 MED-2588 MED-2591 MED-3780 MED-3784 MED-1551 MED-1552 MED-1553,Atkins diet,0.7259703129621777,488,-478
+Turmeric Curcumin is used for treating Osteoarthritis.,MED-2797 MED-2809 MED-2799 MED-2800 MED-2801 MED-2802 MED-2803 MED-2804 MED-2805 MED-2819,Turmeric Curcumin and Osteoarthritis,0.7876130431499777,259,-249
+"Tumors are deprived of their blood supply, causing them to starve.",MED-3549 MED-3550 MED-3551 MED-3554 MED-3555 MED-3548 MED-3552 MED-3553 MED-4089 MED-4090,Starving Tumors of Their Blood Supply,0.7952583473480008,234,-224
+What are some foods that can help with glaucoma?,MED-2896 MED-2899 MED-2900 MED-2901 MED-2882 MED-2898 MED-2884 MED-2885 MED-2886 MED-2888,Foods for Glaucoma,0.88136969299675,91,-81
+The concept of dietary scoring.,MED-4686 MED-4385 MED-1208 MED-1209 MED-1210 MED-1211 MED-1212 MED-1213 MED-5303 MED-1401,dietary scoring,0.8449308822789244,260,-250
+Carrageenan is a substance and its meaning should not be altered.,MED-3494 MED-3501 MED-3496 MED-3497 MED-3502 MED-3500 MED-3495 MED-3498 MED-3499 MED-3960,carrageenan,0.6040576581247874,144,-134
+Adenovirus 36 causes illnesses.,MED-1796 MED-1797 MED-1798 MED-1799 MED-1800 MED-1801 MED-1802 MED-1803 MED-1804 MED-4767,adenovirus 36,0.7538324007716763,162,-152
+What is myelopathy?,MED-5142 MED-2940 MED-2941 MED-2943 MED-2947 MED-4511 MED-4512 MED-4513 MED-2938 MED-2945,myelopathy,0.8759571357231191,157,-147
+The Enzyme Myth is true at times.,MED-4454 MED-5204 MED-1184 MED-1185 MED-1186 MED-1187 MED-1188 MED-1582 MED-1412 MED-1413,Sometimes the Enzyme Myth Is True,0.882623419838387,310,-300
+A scoring system is used to evaluate diets.,MED-4686 MED-4385 MED-1208 MED-1209 MED-1210 MED-1211 MED-1212 MED-1213 MED-5303 MED-1401,dietary scoring,0.7131895519420746,187,-177
+The pumpkin is being referred to.,MED-2827 MED-2830 MED-2826 MED-2831 MED-2999 MED-3000 MED-3001 MED-3617 MED-3618 MED-3620,pumpkin,0.6157863547332871,138,-128
+There is a connection between acne and cancer.,MED-4752 MED-1223 MED-1224 MED-5239 MED-1226 MED-1227 MED-2126 MED-1229 MED-1230 MED-1337,Acne & Cancer Connection,0.8391766732283705,159,-149
+Does the size of stool affect the risk of breast cancer?,MED-4516 MED-4517 MED-4518 MED-4522 MED-4635 MED-4640 MED-4637 MED-4638 MED-4639 MED-4641,Stool Size and Breast Cancer Risk,0.8767713661209775,276,-266
+Arkansas is the subject of the following query.,MED-4413 MED-4912 MED-4911 MED-2088 MED-2490 MED-2491 MED-2492 MED-3714 MED-3715 MED-3716,Arkansas,0.631492863577987,82,-72
+Rapamycin is a type of drug.,MED-2513 MED-2502 MED-2498 MED-2504 MED-2505 MED-2507 MED-5239 MED-2509 MED-2519 MED-2510,rapamycin,0.7089856751983692,356,-346
+"Which is superior, fresh fruit or frozen fruit?",MED-3714 MED-917 MED-4545 MED-2274 MED-3535 MED-2279 MED-2280 MED-2281 MED-2282 MED-3464,Fresh fruit versus frozen--which is better?,0.8513666335534112,190,-180
+Bronchiolitis obliterans is a condition involving inflammation and obstruction of the bronchioles.,MED-3385 MED-3387 MED-3386 MED-4407 MED-4411 MED-4412 MED-4408 MED-4410 MED-2644 MED-2646,bronchiolitis obliterans,0.7880761259215319,281,-271
+The impact of eggs on arterial function is being studied.,MED-2370 MED-2371 MED-2372 MED-4324 MED-3197 MED-3198 MED-4300 MED-4301 MED-4602 MED-4676,Eggs and Arterial Function,0.7825390001909664,210,-200
+There were accidents.,MED-4222 MED-2675 MED-2676 MED-2677 MED-2678 MED-2679 MED-2726 MED-2725 MED-2736 MED-5169,accidents,0.6852647799685079,838,-828
+Whiting is a type of fish.,MED-5169 MED-5170 MED-2988 MED-2577 MED-2578 MED-2572 MED-2581 MED-2582 MED-2584 MED-1249,whiting,0.7687984512096324,218,-208
+Zoloft is a medication.,MED-1356 MED-1357 MED-1358 MED-1359 MED-1360 MED-1342 MED-1343 MED-1344 MED-1345 MED-1355,Zoloft,0.7782014126149138,590,-580
+Hyperactivity refers to excessive levels of activity or restlessness.,MED-3378 MED-3380 MED-5062 MED-3382 MED-3383 MED-3384 MED-3379 MED-3381 MED-4711 MED-4840,hyperactivity,0.7213780162820644,330,-320
+Blocking the supply lines of tumors is known as anti-angiogenesis.,MED-3548 MED-3549 MED-3550 MED-3551 MED-3552 MED-3553 MED-3554 MED-3555 MED-3834 MED-3853,Anti-Angiogenesis: Cutting Off Tumor Supply Lines,0.7654848714034189,209,-199
+Carcinogens are substances that can cause cancer.,MED-2568 MED-2988 MED-2559 MED-4319 MED-2570 MED-2573 MED-2574 MED-2585 MED-2599 MED-2607,carcinogens,0.7005129840361598,384,-374
+Chicken Nuggets contain what substance?,MED-2991 MED-3085 MED-3086 MED-3087 MED-3088 MED-3089 MED-3090 MED-3091 MED-3092 MED-3093,What is Actually in Chicken Nuggets?,0.7406453033969496,199,-189
+"Bone fractures can be rephrased as ""Fractures occur in bones.""",MED-2988 MED-2980 MED-2990 MED-2986 MED-2985 MED-2987 MED-332 MED-3090 MED-334 MED-335,bone fractures,0.5905491348532834,234,-224
+Polypropylene plastic is a type of plastic.,MED-4991 MED-4992 MED-4185 MED-4186 MED-2644 MED-2646 MED-2651 MED-118 MED-2652 MED-2653,polypropylene plastic,0.7998830710024333,82,-72
+Cheese mites and maggots both exist as pests in cheese.,MED-4403 MED-4908 MED-4909 MED-4912 MED-4911 MED-4936 MED-4932 MED-4132 MED-4357 MED-4427,Cheese Mites and Maggots,0.8174427283561279,289,-279
+It is possible to eat healthy while on a budget.,MED-3769 MED-3770 MED-4406 MED-4454 MED-4622 MED-4686 MED-4712 MED-4771 MED-5322 MED-5323,Eating Healthy on a Budget,0.802534703767798,183,-173
+What are the principles and guidelines that govern the conduct of healthcare professionals in relation to moral and ethical considerations?,MED-2527 MED-2524 MED-2525 MED-2526 MED-2528 MED-2529 MED-2530 MED-3619 MED-3601 MED-3602,medical ethics,0.49597468509342824,219,-209
+Unhealthy food is also known as junk food.,MED-2797 MED-2809 MED-2799 MED-2800 MED-2801 MED-2802 MED-2803 MED-2804 MED-2805 MED-2807,junk food,0.5919695061010756,593,-583
+The evidence is converging.,MED-4696 MED-1486 MED-1487 MED-1488 MED-1489 MED-1490 MED-1496 MED-1497 MED-1498 MED-1499,Convergence of Evidence,0.7839790432498255,366,-356
+What is the definition of eggnog?,MED-3806 MED-3807 MED-3808 MED-3809 MED-3810 MED-3545 MED-3173 MED-3541 MED-3546 MED-3542,eggnog,0.6685338409881393,618,-608
+Can you provide information about DHA?,MED-2750 MED-2751 MED-2752 MED-2754 MED-2755 MED-3028 MED-2913 MED-3021 MED-3012 MED-3033,DHA,0.6869646525336437,169,-159
+Chanterelle mushrooms are referred to as what?,MED-4650 MED-3314 MED-3306 MED-3307 MED-3316 MED-3311 MED-3292 MED-3317 MED-3294 MED-3320,chanterelle mushrooms,0.7601975331543974,99,-89
+The comparison between aluminum in vaccines and aluminum in food.,MED-4908 MED-4909 MED-2248 MED-2249 MED-2250 MED-2251 MED-2252 MED-2253 MED-2254 MED-2255,Aluminum in Vaccines vs. Food,0.8696655551441311,234,-224
+Where is pumpkin found?,MED-2827 MED-2830 MED-2826 MED-2831 MED-2999 MED-3000 MED-3001 MED-3617 MED-3618 MED-3620,pumpkin,0.5768181384450213,114,-104
+What about seafood?,MED-2494 MED-2495 MED-2496 MED-2493 MED-2497 MED-2644 MED-2646 MED-2651 MED-118 MED-2652,seafood,0.6845640538635722,480,-470
+The state called Arkansas.,MED-4413 MED-3714 MED-3715 MED-3716 MED-3717 MED-3718 MED-3719 MED-3720 MED-3721 MED-3374,Arkansas,0.6909353929620197,141,-131
+What is the frequency of bowel movements?,MED-5177 MED-5175 MED-2099 MED-2100 MED-2101 MED-2102 MED-2103 MED-2529 MED-2105 MED-2106,Bowel Movement Frequency,0.8014457788856592,193,-183
+"The dietary guidelines cover a range of topics, including the consumption of dairy products and berries.",MED-5331 MED-2999 MED-2997 MED-2765 MED-3001 MED-2966 MED-2968 MED-2970 MED-2972 MED-4981,Dietary Guidelines: From Dairies to Berries,0.7661262993692501,359,-349
+Grapes are needed.,MED-2663 MED-2664 MED-2665 MED-4860 MED-2668 MED-2670 MED-2669 MED-2797 MED-2809 MED-2799,grapes,0.6852279263395638,307,-297
+What is a fruit that is better than goji berries?,MED-3742 MED-3893 MED-3894 MED-4544 MED-2882 MED-2898 MED-2884 MED-2885 MED-2886 MED-2888,Better Than Goji Berries,0.7900099805665026,171,-161
+Pork is the subject of the query.,MED-3886 MED-3882 MED-3889 MED-3891 MED-2940 MED-2941 MED-2943 MED-2944 MED-2966 MED-2968,pork,0.6129963878354909,520,-510
+Drinking coffee has an effect on artery function.,MED-1634 MED-1635 MED-1636 MED-1637 MED-1638 MED-1639 MED-1640 MED-1641 MED-1642 MED-1643,Coffee and Artery Function,0.8096137057011022,187,-177
+Heart nerve control is being enhanced.,MED-5026 MED-5027 MED-2896 MED-4384 MED-2898 MED-2899 MED-2900 MED-2901 MED-3422 MED-3423,Boosting Heart Nerve Control,0.750438288756889,950,-940
+Chronic headaches may be caused by pork parasites.,MED-3178 MED-3169 MED-3172 MED-3181 MED-3174 MED-3175 MED-3176 MED-3182 MED-3170 MED-3171,Chronic Headaches and Pork Parasites,0.8989964052399857,224,-214
+Common diseases are combated by consuming more than just one apple per day.,MED-5322 MED-5323 MED-5324 MED-5325 MED-5326 MED-5327 MED-5328 MED-5329 MED-5330 MED-5331,More Than an Apple a Day: Combating Common Diseases,0.6840839824529452,145,-135
+Doctors were named a leading killer and their response was observed.,MED-5343 MED-5344 MED-5345 MED-5346 MED-5347 MED-1487 MED-1482 MED-1483 MED-1484 MED-1490,How Doctors Responded to Being Named a Leading Killer,0.8298849022160419,145,-135
+There is hormonal dysfunction.,MED-3085 MED-3086 MED-3087 MED-3088 MED-3089 MED-3090 MED-3091 MED-3092 MED-3093 MED-3094,hormonal dysfunction,0.8558221688900409,511,-501
+What is a hernia?,MED-2997 MED-2999 MED-3000 MED-3001 MED-5177 MED-5175 MED-4422 MED-3169 MED-3170 MED-3171,hernia,0.7062237317153233,55,-45
+The new recommendations shed some light on Vitamin D.,MED-714 MED-919 MED-716 MED-4573 MED-4574 MED-4575 MED-4570 MED-3503 MED-3504 MED-3794,Vitamin D: Shedding some light on the new recommendations,0.837086185836152,51,-41
+Low-carb diets are often effective for weight loss.,MED-2586 MED-2587 MED-2588 MED-2591 MED-1463 MED-1464 MED-1465 MED-1466 MED-1467 MED-1468,low-carb diets,0.6838854436799804,484,-474
+The enlargement of the prostate can be treated with diet.,MED-5176 MED-4230 MED-4231 MED-4232 MED-4233 MED-4234 MED-4235 MED-4236 MED-4237 MED-4239,Treating an Enlarged Prostate With Diet,0.8531847401990167,305,-295
+Pineapples are what the query is referring to.,MED-3742 MED-3743 MED-3744 MED-3745 MED-3746 MED-3747 MED-3748 MED-4585 MED-2513 MED-2502,pineapples,0.6779045057902866,403,-393
+Kiwifruit can be used to treat Irritable Bowel Syndrome.,MED-4325 MED-4516 MED-4517 MED-4518 MED-4522 MED-4635 MED-4640 MED-4637 MED-4689 MED-4810,Kiwifruit for Irritable Bowel Syndrome,0.875656388393623,201,-191
+Are worms considered to be a type of insect?,MED-3169 MED-3170 MED-3171 MED-3172 MED-3173 MED-3174 MED-3175 MED-3176 MED-3177 MED-3178,worms,0.539483344177975,140,-130
+Olive oil has an effect on artery function.,MED-5260 MED-5261 MED-5262 MED-5263 MED-5278 MED-5265 MED-5266 MED-5267 MED-5268 MED-5269,Olive Oil and Artery Function,0.8694746787281662,285,-275
+What is peanut butter?,MED-3369 MED-3370 MED-3372 MED-3376 MED-3377 MED-2150 MED-4646 MED-2152 MED-2153 MED-3371,peanut butter,0.6685080008893429,195,-185
+Avocados have health benefits.,MED-4619 MED-4620 MED-4621 MED-4514 MED-4515 MED-4618 MED-1463 MED-1454 MED-1455 MED-1456,Are Avocados Good for You?,0.6959117213475566,107,-97
+How is lard made?,MED-2644 MED-2646 MED-2651 MED-118 MED-2652 MED-2653 MED-2655 MED-2659 MED-2661 MED-2662,lard,0.6029206069384461,628,-618
+The person is in a coma.,MED-2527 MED-3314 MED-3306 MED-3307 MED-3316 MED-3311 MED-3292 MED-3317 MED-3294 MED-3320,coma,0.3730103580799001,244,-234
+There is maple syrup available.,MED-4150 MED-5056 MED-717 MED-718 MED-719 MED-720 MED-721 MED-722 MED-723 MED-724,maple syrup,0.7146470034653357,53,-43
+"Pepper and turmeric are added to V8 juice, right?",MED-892 MED-4390 MED-4993 MED-2790 MED-2792 MED-2793 MED-2794 MED-2800 MED-2791 MED-2825,What about pepper plus turmeric in V8 juice?,0.8787559678713157,300,-290
+Diet can be used to counteract the effects of dioxins.,MED-3109 MED-3098 MED-3099 MED-3100 MED-3112 MED-3102 MED-4194 MED-4195 MED-4196 MED-4197,Counteracting the Effects of Dioxins Through Diet,0.8560293302321749,198,-188
+Cumin is a spice.,MED-2830 MED-735 MED-2831 MED-2599 MED-2607 MED-2602 MED-2603 MED-2605 MED-2604 MED-2606,cumin,0.7472880939742078,329,-319
+"Dental X-rays are safe, right?",MED-3618 MED-3621 MED-3619 MED-3601 MED-3602 MED-3603 MED-3604 MED-3615 MED-3606 MED-3607,Are Dental X-Rays Safe?,0.897943229811085,187,-177
+What is saturated fat?,MED-4551 MED-2643 MED-2645 MED-2656 MED-2657 MED-2658 MED-2660 MED-2649 MED-2797 MED-2809,saturated fat,0.7198949763805865,1024,-1014
+Artificial colors have negative effects on health.,MED-5062 MED-5063 MED-3378 MED-3380 MED-3382 MED-2616 MED-2617 MED-2618 MED-2619 MED-2992,Are Artificial Colors Bad for You?,0.7218677309569737,111,-101
+Can B vitamins prevent brain loss?,MED-980 MED-981 MED-982 MED-983 MED-984 MED-985 MED-986 MED-987 MED-988 MED-3137,Preventing Brain Loss with B Vitamins?,0.8994438392439574,597,-587
+Can Probiotics prevent the Common Cold?,MED-3680 MED-3681 MED-3682 MED-3683 MED-3693 MED-3685 MED-3686 MED-3687 MED-3671 MED-3676,Preventing the Common Cold with Probiotics?,0.9141463135521777,217,-207
+Is there any update on the scary in vitro avocado data?,MED-861 MED-4618 MED-4000 MED-4002 MED-5016 MED-4005 MED-4007 MED-4001 MED-4004 MED-4006,Any update on the scary in vitro avocado data?,0.9907774365887794,53,-43
+The risks of alcohol compared to its benefits should be evaluated.,MED-4994 MED-3696 MED-3697 MED-3698 MED-3699 MED-3700 MED-3701 MED-3762 MED-3763 MED-3764,Alcohol Risks vs. Benefits,0.7772141948823817,328,-318
+Turnips are a type of vegetable.,MED-2098 MED-4581 MED-4582 MED-4583 MED-2064 MED-2065 MED-2066 MED-2067 MED-2068 MED-2069,turnips,0.7353575605741447,1096,-1086
+Pork tapeworms can cause chronic headaches.,MED-3169 MED-3170 MED-3171 MED-3172 MED-3173 MED-3174 MED-3175 MED-3176 MED-3177 MED-3178,Chronic Headaches and Pork Tapeworms,0.8729856284611169,174,-164
+There is an issue with hormone functioning.,MED-3085 MED-3086 MED-3087 MED-3088 MED-3089 MED-3090 MED-3091 MED-3092 MED-3093 MED-3094,hormonal dysfunction,0.7245507099093275,460,-450
+The goal is to stop heart disease in childhood.,MED-3254 MED-3253 MED-3255 MED-5322 MED-5323 MED-5324 MED-5325 MED-5326 MED-5327 MED-5328,Stopping Heart Disease in Childhood,0.8235662393028467,123,-113
+Apple cider vinegars health benefits include advantages for ones well-being.,MED-941 MED-942 MED-4701 MED-4702 MED-4703 MED-4265 MED-4266 MED-4267 MED-1157 MED-1158,Is apple cider vinegar good for you?,0.6215579601858967,110,-100
+What is the recommended way to take probiotics?,MED-3679 MED-3671 MED-3672 MED-3673 MED-3674 MED-3675 MED-3676 MED-3677 MED-3678 MED-3680,How Should I Take Probiotics?,0.8582018968477536,218,-208
+beans from the broad bean plant,MED-4859 MED-4281 MED-2513 MED-2502 MED-2498 MED-2504 MED-2505 MED-2507 MED-5239 MED-2509,broad beans,0.8423880586610824,509,-499
+Cholesterol statin drugs are responsible for causing breast cancer.,MED-2427 MED-10 MED-2429 MED-2430 MED-2431 MED-14 MED-2432 MED-2428 MED-2440 MED-2434,Do Cholesterol Statin Drugs Cause Breast Cancer?,0.8213662435193407,635,-625
+Crohns Disease can be treated through dietary considerations.,MED-4342 MED-4349 MED-4345 MED-4346 MED-4347 MED-4627 MED-4350 MED-4984 MED-5328 MED-4388,Treating Crohn’s Disease With Diet,0.7596031159343102,164,-154
+The public is being buttered up by the Saturated Fat Studies.,MED-1557 MED-1558 MED-3597 MED-3598 MED-3599 MED-4556 MED-4559 MED-1551 MED-1552 MED-1553,The Saturated Fat Studies: Buttering Up the Public,0.8207840713881037,105,-95
+Fenugreek can be used to increase muscle strength.,MED-4544 MED-4150 MED-5341 MED-5337 MED-4464 MED-4465 MED-4468 MED-4469 MED-4501 MED-4502,Increasing Muscle Strength with Fenugreek,0.8264853205392138,300,-290
+A diet that is based on plants.,MED-3585 MED-3586 MED-3592 MED-3598 MED-3597 MED-3671 MED-3676 MED-4481 MED-3728 MED-3730,plant-based diet,0.7189817498516824,1269,-1259
+Cadaverine is a chemical compound.,MED-4546 MED-4547 MED-4958 MED-4959 MED-4960 MED-4961 MED-3815 MED-3816 MED-3820 MED-3821,cadaverine,0.7893166690761404,87,-77
+The frequency of bowel movements.,MED-5177 MED-5175 MED-2099 MED-2100 MED-2101 MED-2102 MED-2103 MED-2529 MED-2105 MED-2106,Bowel Movement Frequency,0.8318086157299235,123,-113
+What is meant by antinutrients?,MED-2575 MED-2580 MED-2571 MED-2583 MED-2574 MED-2568 MED-2988 MED-2559 MED-4319 MED-2570,antinutrients,0.7899020259395262,801,-791
+The effects of dioxins are counteracted through diet.,MED-3109 MED-3098 MED-3099 MED-3100 MED-3112 MED-3102 MED-4194 MED-4195 MED-4196 MED-4197,Counteracting the Effects of Dioxins Through Diet,0.8657317506754572,198,-188
+Chicken Nuggets contain what ingredients exactly?,MED-2991 MED-3085 MED-3086 MED-3087 MED-3088 MED-3089 MED-3090 MED-3091 MED-3092 MED-3093,What is Actually in Chicken Nuggets?,0.7648922786650938,165,-155
+Splenda is a low-calorie sweetener.,MED-1574 MED-1575 MED-1576 MED-1577 MED-1578 MED-1579 MED-1580 MED-1581 MED-1582 MED-5053,Splenda,0.7584154818827111,109,-99
+Bisphenol A (BPA) in plastic can cause male sexual dysfunction.,MED-4185 MED-4186 MED-4653 MED-4654 MED-4655 MED-4656 MED-1098 MED-1099 MED-1100 MED-1101,BPA Plastic and Male Sexual Dysfunction,0.8380678935022876,226,-216
+Kidney beans are a type of legume.,MED-2966 MED-2968 MED-2970 MED-2972 MED-4981 MED-2140 MED-2141 MED-4319 MED-2143 MED-2144,kidney beans,0.7145592631026358,246,-236
+What is Canker sores.,MED-4841 MED-1223 MED-1224 MED-5239 MED-1226 MED-1227 MED-2126 MED-1229 MED-1230 MED-2053,canker sores,0.7428932127838556,194,-184
+Coconut milks nutritional benefits are good for your health.,MED-5012 MED-5013 MED-5014 MED-1277 MED-1278 MED-1279 MED-1280 MED-1281 MED-1282 MED-1283,Is Coconut Milk Good For You?,0.7307162938976854,85,-75
+What is Endocrine disruptors?,MED-2494 MED-2495 MED-2496 MED-2493 MED-2497 MED-2644 MED-2646 MED-2651 MED-118 MED-2652,endocrine disruptors,0.7320730068707815,220,-210
+What is leucine?,MED-2513 MED-2502 MED-2498 MED-2504 MED-2505 MED-2507 MED-5239 MED-2509 MED-2519 MED-2510,leucine,0.7597788385654507,259,-249
+Is oxen meat available?,MED-4687 MED-4689 MED-4880 MED-4881 MED-4882 MED-4883 MED-4884 MED-5102 MED-5104 MED-4200,oxen meat,0.8215545499198567,1159,-1149
+African-Americans are being referred to.,MED-3875 MED-3876 MED-3877 MED-4233 MED-1412 MED-1413 MED-1414 MED-1415 MED-1416 MED-1417,African Americans,0.6374110065519101,161,-151
+CT scan radiation increases the risk of developing cancer.,MED-3623 MED-3624 MED-3625 MED-3626 MED-3627 MED-3609 MED-3610 MED-3617 MED-3620 MED-3622,Cancer Risk From CT Scan Radiation,0.7578618665069243,196,-186
+Do antioxidant-rich spices have the ability to offset the effects of a high-fat meal?,MED-759 MED-760 MED-2830 MED-2831 MED-3702 MED-3703 MED-3704 MED-3705 MED-3706 MED-3707,Can antioxidant-rich spices counteract the effects of a high-fat meal?,0.9729479552833884,124,-114
+There is a fish fog.,MED-4946 MED-2385 MED-2386 MED-2395 MED-2388 MED-2389 MED-2396 MED-2391 MED-2407 MED-3021,Fish Fog,0.7778241100751808,763,-753
+Cocaine is a drug.,MED-2586 MED-2587 MED-2588 MED-2591 MED-3050 MED-3038 MED-3052 MED-3053 MED-3054 MED-3044,cocaine,0.6640088252811179,320,-310
+What happens if we add both pepper and turmeric to V8 juice?,MED-892 MED-4390 MED-4993 MED-2790 MED-2792 MED-2793 MED-2794 MED-2800 MED-2791 MED-2825,What about pepper plus turmeric in V8 juice?,0.878045664216111,362,-352
+Viral infections are communicable diseases caused by viruses.,MED-2747 MED-2748 MED-2749 MED-1103 MED-1104 MED-1105 MED-1106 MED-1107 MED-1108 MED-1109,viral infections,0.6444603757921632,238,-228
+Walnut oil is what this query is about.,MED-2150 MED-4646 MED-2152 MED-2153 MED-4303 MED-2592 MED-2593 MED-2594 MED-2595 MED-2596,walnut oil,0.7712245636761855,90,-80
+Plants that are toxic.,MED-5159 MED-5160 MED-5161 MED-5162 MED-3810 MED-3807 MED-3808 MED-3809 MED-3811 MED-3812,poisonous plants,0.6901970985586604,199,-189
+What is Dragons Blood?,MED-4525 MED-4526 MED-4527 MED-1574 MED-1575 MED-1576 MED-1577 MED-1578 MED-1579 MED-1580,Dragon's Blood,0.8308616793513419,115,-105
+Junk food is a term used to describe unhealthy or low-nutrient food.,MED-2797 MED-2809 MED-2799 MED-2800 MED-2801 MED-2802 MED-2803 MED-2804 MED-2805 MED-2807,junk food,0.6605713880034902,706,-696
+Dragon fruit is good for you.,MED-1574 MED-1575 MED-1576 MED-1577 MED-1578 MED-1579 MED-1580 MED-1581 MED-1582 MED-1789,Is Dragon Fruit Good For You?,0.8014601189222195,171,-161
+Apple juice could potentially have more negative health effects compared to sugar water.,MED-4091 MED-4089 MED-5071 MED-4090 MED-4413 MED-4585 MED-4687 MED-4689 MED-3679 MED-2088,Apple Juice May Be Worse Than Sugar Water,0.7916007929469524,234,-224
+Meat purge and cola share commonalities.,MED-332 MED-3090 MED-334 MED-335 MED-3092 MED-3094 MED-3085 MED-3086 MED-3087 MED-3088,What Do Meat Purge and Cola Have in Common?,0.8858622808936998,290,-280
+What is Domoic acid?,MED-4380 MED-4381 MED-4736 MED-4739 MED-4738 MED-4742 MED-4743 MED-4811 MED-4946 MED-4951,domoic acid,0.827194925481641,119,-109
+The duration needed to detox from fish before pregnancy is how long?,MED-3021 MED-3023 MED-2904 MED-2905 MED-2906 MED-2907 MED-3024 MED-3025 MED-2910 MED-3027,How Long to Detox From Fish Before Pregnancy?,0.9438821319268016,145,-135
+Blood clots are what the query is referring to.,MED-398 MED-3200 MED-3201 MED-3202 MED-3203 MED-3209 MED-1682 MED-1683 MED-1701 MED-1685,blood clots,0.699122793761986,152,-142
+Blood clots can form in the body.,MED-398 MED-3200 MED-3201 MED-3202 MED-3203 MED-3209 MED-1682 MED-1683 MED-1701 MED-1685,blood clots,0.6889134070215366,215,-205
+There is a presence of liver disease.,MED-2527 MED-2675 MED-2676 MED-2677 MED-2678 MED-2679 MED-2780 MED-2810 MED-2787 MED-2788,liver disease,0.6758572955151542,345,-335
+You can get rid of excess estrogen.,MED-4642 MED-4643 MED-4644 MED-3762 MED-3763 MED-3764 MED-1375 MED-1362 MED-1363 MED-1383,Relieving Yourself of Excess Estrogen,0.7798456959112828,278,-268
+"Serotonin is a hormone that affects mood, appetite, and sleep.",MED-3518 MED-3519 MED-3532 MED-3533 MED-3524 MED-3527 MED-3539 MED-3536 MED-3537 MED-5030,serotonin,0.5735136623329652,365,-355
+What is the function of cortisol?,MED-4103 MED-4104 MED-4853 MED-2494 MED-2495 MED-2496 MED-2493 MED-2497 MED-2568 MED-2988,cortisol,0.6078019793132016,480,-470
+Different techniques used for preparing food.,MED-2675 MED-2676 MED-2677 MED-2678 MED-2679 MED-2736 MED-5169 MED-2745 MED-2742 MED-2827,cooking methods,0.6384586174996149,348,-338
+"Another study demonstrated that carnitine had positive effects on heart health, right?",MED-4324 MED-4556 MED-4559 MED-3781 MED-3789 MED-3790 MED-3782 MED-3788 MED-3787 MED-3785,Didn't another study show carnitine was good for the heart?,0.8669926268524615,966,-956
+Tumor supply lines are cut off through anti-angiogenesis.,MED-3548 MED-3549 MED-3550 MED-3551 MED-3552 MED-3553 MED-3554 MED-3555 MED-3834 MED-3853,Anti-Angiogenesis: Cutting Off Tumor Supply Lines,0.8252747949488619,200,-190
+Believing in any scientific study is possible.,MED-952 MED-5159 MED-5160 MED-5161 MED-5162 MED-3197 MED-3198 MED-4556 MED-4559 MED-5071,How can you believe in any scientific study?,0.7653560573978133,412,-402
+The inability to hear.,MED-4532 MED-4533 MED-4534 MED-4535 MED-4536 MED-4375 MED-2763 MED-2882 MED-2899 MED-2894,deafness,0.6442840549671007,292,-282
+Coconut milk has beneficial effects on health.,MED-5012 MED-5013 MED-5014 MED-1277 MED-1278 MED-1279 MED-1280 MED-1281 MED-1282 MED-1283,Is Coconut Milk Good For You?,0.7242087885838935,79,-69
+Broccoli enhances liver function for an extended period.,MED-4040 MED-4976 MED-5197 MED-4049 MED-4053 MED-4051 MED-5116 MED-4047 MED-4055 MED-4050,Prolonged Liver Function Enhancement From Broccoli,0.8381973033900765,498,-488
+Subsidies are financial assistance given by the government or a governing body to support certain industries or individuals.,MED-2722 MED-2488 MED-2489 MED-2616 MED-2617 MED-2618 MED-2619 MED-2725 MED-2726 MED-2763,subsidies,0.6039970016469041,549,-539
+"Crib death refers to the sudden, unexpected death of an infant during sleep, also commonly known as Sudden Infant Death Syndrome (SIDS).",MED-4399 MED-4400 MED-4402 MED-4313 MED-4314 MED-4315 MED-4352 MED-4353 MED-4609 MED-4613,crib death,0.7616067282036585,376,-366
+Folic acid is being referred to.,MED-1195 MED-1196 MED-5360 MED-1198 MED-1199 MED-1200 MED-1201 MED-1202 MED-1203 MED-4365,folic acid,0.7023054044164567,164,-154
+Growth promoters are being sought without any modification to their intended effect.,MED-2769 MED-2770 MED-2771 MED-2772 MED-2774 MED-2775 MED-3563 MED-3557 MED-3558 MED-3887,growth promoters,0.6155677052797489,275,-265
+What is the condition of deafness?,MED-4532 MED-4533 MED-4534 MED-4535 MED-4536 MED-2763 MED-2882 MED-2899 MED-2894 MED-2898,deafness,0.6474007148423498,133,-123
+The mystery of apthous ulcer is solved.,MED-4841 MED-1223 MED-1224 MED-5239 MED-1226 MED-1227 MED-2126 MED-1229 MED-1230 MED-2053,Apthous Ulcer Mystery Solved,0.9051303975782099,226,-216
+Using diet as a treatment for an enlarged prostate can be effective.,MED-5176 MED-4230 MED-4231 MED-4232 MED-4233 MED-4234 MED-4235 MED-4236 MED-4237 MED-4239,Treating an Enlarged Prostate With Diet,0.8265398988010642,309,-299
+Inflammatory Bowel Disease is related to Titanium Dioxide.,MED-3960 MED-3961 MED-3962 MED-3963 MED-3964 MED-3965 MED-3966 MED-3967 MED-3968 MED-3969,Titanium Dioxide & Inflammatory Bowel Disease,0.8154343480544464,190,-180
+Diet can help prevent cataracts.,MED-4382 MED-4385 MED-4383 MED-4384 MED-4984 MED-4388 MED-4389 MED-4553 MED-4554 MED-5328,Preventing Cataracts with Diet,0.8507561168791652,199,-189
+Is eggnog a popular holiday drink?,MED-3806 MED-3807 MED-3808 MED-3809 MED-3810 MED-3545 MED-3173 MED-3541 MED-3546 MED-3542,eggnog,0.6144262638839822,100,-90
+ECMO is an abbreviation for Extracorporeal Membrane Oxygenation.,MED-2109 MED-2110 MED-2111 MED-2112 MED-4255 MED-3545 MED-3173 MED-3541 MED-3546 MED-3542,ECMO,0.7610177303472371,74,-64
+Do artificial colors have negative effects on your health?,MED-5062 MED-5063 MED-3378 MED-3380 MED-3382 MED-2616 MED-2617 MED-2618 MED-2619 MED-2992,Are Artificial Colors Bad for You?,0.8235593366681428,119,-109
+Spearmint is a type of herb.,MED-1240 MED-1241 MED-1242 MED-1243 MED-1244 MED-1245 MED-1246 MED-1247 MED-1248 MED-1519,spearmint,0.7548221642609452,226,-216
+The neurobiology of artificial sweeteners is being investigated.,MED-4120 MED-4121 MED-4124 MED-1574 MED-1575 MED-1576 MED-1577 MED-1578 MED-1579 MED-1580,Neurobiology of Artificial Sweeteners,0.8664886182715092,102,-92
+It is recommended to have Mercury Testing before pregnancy.,MED-4375 MED-4376 MED-4378 MED-4379 MED-4380 MED-4381 MED-4531 MED-4546 MED-4547 MED-4622,Mercury Testing Recommended Before Pregnancy,0.918563387801792,102,-92
+It is possible to have faith in any scientific study.,MED-952 MED-5159 MED-5160 MED-5161 MED-5162 MED-5071 MED-1811 MED-1812 MED-1813 MED-1814,How can you believe in any scientific study?,0.6884863482633671,383,-373
+Hiroshima is referenced in the query.,MED-3617 MED-3618 MED-3620 MED-3621 MED-3615 MED-3622 MED-3623 MED-3624 MED-3625 MED-3626,Hiroshima,0.6476237847032822,283,-273
+Diet can be used to prevent Ulcerative Colitis.,MED-1418 MED-1419 MED-1420 MED-1421 MED-3964 MED-4342 MED-1581 MED-1425 MED-1426 MED-1574,Preventing Ulcerative Colitis with Diet,0.8412613481957941,220,-210
+Does coffee have an impact on artery function?,MED-1634 MED-1635 MED-1636 MED-1637 MED-1638 MED-1639 MED-1640 MED-1641 MED-1642 MED-1643,Coffee and Artery Function,0.8302192290423969,187,-177
+The Meat Industry Lawsuit is responsible for the presence of salmonella in chicken.,MED-2736 MED-4131 MED-2738 MED-5169 MED-2740 MED-2741 MED-2742 MED-2744 MED-2745 MED-2725,Chicken Salmonella Thanks to Meat Industry Lawsuit,0.7866611530306176,134,-124
+Do multivitamins have any beneficial effects on your health?,MED-4925 MED-2759 MED-2760 MED-2761 MED-4645 MED-4646 MED-4647 MED-2757 MED-2758 MED-2762,Are Multivitamins Good For You?,0.716672328600543,86,-76
+Childhood constipation is related to the consumption of cows milk.,MED-2053 MED-2054 MED-2055 MED-2056 MED-2057 MED-2058 MED-2059 MED-2060 MED-2061 MED-2062,Childhood Constipation and Cow’s Milk,0.8220433777206726,197,-187
+The person took an excessive amount of greens and possibly suffered from an overdose.,MED-3810 MED-3109 MED-3098 MED-3099 MED-3100 MED-3112 MED-3102 MED-3103 MED-3709 MED-3105,Overdosing on Greens,0.7473408826556134,103,-93
+What is the purpose of folic acid?,MED-1195 MED-1196 MED-5360 MED-1198 MED-1199 MED-1200 MED-1201 MED-1202 MED-1203 MED-4365,folic acid,0.6514518410217884,131,-121
+What is the duration for which a product can be stored without deteriorating in quality or becoming unsafe for consumption?,MED-4303 MED-4324 MED-4342 MED-4349 MED-4345 MED-4346 MED-5322 MED-5323 MED-5324 MED-5325,shelf life,0.5980920135034034,644,-634
+You can keep your hands warm with citrus.,MED-3473 MED-3474 MED-3475 MED-3476 MED-3477 MED-3478 MED-3479 MED-3480 MED-3481 MED-3482,Keeping Your Hands Warm With Citrus,0.8973946020145879,248,-238
+Dr. Dean Ornishs name is what I am looking for.,MED-2763 MED-3780 MED-3784 MED-3242 MED-3244 MED-3790 MED-3245 MED-5337 MED-3250 MED-3251,Dr. Dean Ornish,0.7293879127981715,138,-128
+The Global Burden of Disease Study aims to determine the worldwide burden of diseases.,MED-2076 MED-2077 MED-2078 MED-2079 MED-2080 MED-5293 MED-2082 MED-2083 MED-5303 MED-2085,Global Burden of Disease Study,0.7535729837877516,328,-318
+Does white meat or dark meat contain a higher amount of antibiotics?,MED-4166 MED-3693 MED-3690 MED-3694 MED-4167 MED-4168 MED-4433 MED-4436 MED-4437 MED-3886,More Antibiotics In White Meat or Dark Meat?,0.8840285903531863,200,-190
+What are industrial toxins?,MED-2494 MED-2495 MED-2496 MED-2493 MED-2497 MED-2644 MED-2646 MED-2651 MED-118 MED-2652,industrial toxins,0.8581529877258179,395,-385
+Can cortisol levels be affected by stress?,MED-4103 MED-4104 MED-4853 MED-1914 MED-1915 MED-1916 MED-1917 MED-1918 MED-1919 MED-1920,cortisol,0.47824069079721154,695,-685
+Conflicts of Interest in the Academy of Nutrition and Dietetics.,MED-2219 MED-2220 MED-2221 MED-2488 MED-2489 MED-2616 MED-2617 MED-2618 MED-2619 MED-2725,Academy of Nutrition and Dietetics Conflicts of Interest,0.8938403121109737,58,-48
+Whats Fenugreek?,MED-3518 MED-3519 MED-3532 MED-3533 MED-3524 MED-3527 MED-3539 MED-3520 MED-3521 MED-3522,fenugreek,0.7440819185398238,278,-268
+Dental X-Rays are safe.,MED-3618 MED-3621 MED-3619 MED-3601 MED-3602 MED-3603 MED-3604 MED-3615 MED-3606 MED-3607,Are Dental X-Rays Safe?,0.861961523800858,190,-180
+Is Hiroshima the name of a city?,MED-3617 MED-3618 MED-3620 MED-3621 MED-3615 MED-3622 MED-3623 MED-3624 MED-3625 MED-3626,Hiroshima,0.6632716829828118,301,-291
+Fenugreek can be used to boost muscle strength.,MED-4544 MED-4150 MED-5341 MED-5337 MED-4464 MED-4465 MED-4468 MED-4469 MED-4501 MED-4502,Increasing Muscle Strength with Fenugreek,0.8233190782780466,300,-290
+It is possible to eat healthy on a budget.,MED-3769 MED-3770 MED-4406 MED-4454 MED-4622 MED-4686 MED-4712 MED-4771 MED-5322 MED-5323,Eating Healthy on a Budget,0.811263364990827,183,-173
+Titanium dioxide is a substance.,MED-3960 MED-3961 MED-3962 MED-3963 MED-3964 MED-3965 MED-3966 MED-3967 MED-3968 MED-3969,titanium dioxide,0.7483893314457819,226,-216
+How long does it take to detox from fish before pregnancy?,MED-3021 MED-3023 MED-2904 MED-2905 MED-2906 MED-2907 MED-3024 MED-3025 MED-2910 MED-3027,How Long to Detox From Fish Before Pregnancy?,0.9723886568850391,145,-135
+Having excessive iodine can be equally detrimental as having insufficient iodine.,MED-4660 MED-4666 MED-4662 MED-4663 MED-4664 MED-3441 MED-3442 MED-3443 MED-3444 MED-3445,Too Much Iodine Can Be as Bad as Too Little,0.7613929645245499,69,-59
+What is BMAA?,MED-1265 MED-1266 MED-1267 MED-1268 MED-1278 MED-1282 MED-1271 MED-1272 MED-1273 MED-1274,BMAA,0.86996730355609,142,-132
+What is the comparison between treating asthma with plants and treating asthma with supplements?,MED-2445 MED-2446 MED-2458 MED-2448 MED-2449 MED-2450 MED-2451 MED-2452 MED-2453 MED-2472,Treating Asthma With Plants vs. Supplements?,0.9161440181879182,252,-242
+The calcium content in plants is being compared to that of cows.,MED-5108 MED-5109 MED-1703 MED-1699 MED-1700 MED-1701 MED-1702 MED-1762 MED-1763 MED-1764,Plant vs. Cow Calcium,0.7569094000214025,366,-356
+It is advisable for diabetics to regularly monitor their pulses.,MED-2140 MED-2141 MED-4319 MED-2143 MED-2144 MED-2145 MED-2146 MED-2405 MED-2394 MED-2395,Diabetics Should Take Their Pulses,0.7755755455893979,667,-657
+The aim is to prevent or reduce the consumption of cooked meat carcinogens.,MED-4053 MED-4058 MED-4055 MED-4060 MED-4057 MED-4059 MED-4075 MED-4068 MED-4069 MED-4070,Avoiding Cooked Meat Carcinogens,0.7392639592998893,115,-105
+Can you give me a recipe for healthy chocolate milkshakes?,MED-2274 MED-3535 MED-2222 MED-2223 MED-2224 MED-2225 MED-2226 MED-2227 MED-2228 MED-2279,Healthy Chocolate Milkshakes,0.7687201408911928,77,-67
+What is the safe amount of alcohol for breast cancer?,MED-3762 MED-3763 MED-3764 MED-3696 MED-3697 MED-3698 MED-3699 MED-3700 MED-3701 MED-3765,Breast Cancer & Alcohol: How Much is Safe?,0.8220664127530404,251,-241
+Is D3 (cholecalciferol) more preferred than D2 (ergocalciferol)?,MED-961 MED-962 MED-5128 MED-5129 MED-5130 MED-5131 MED-5132 MED-5133 MED-5134 MED-5135,Is vitamin D3 (cholecalciferol) preferable to D2 (ergocalciferol)?,0.9296894300909572,52,-42
+Amnesia is a condition characterized by memory loss.,MED-4380 MED-4381 MED-4736 MED-4739 MED-4738 MED-4742 MED-4743 MED-4811 MED-4946 MED-4951,amnesia,0.7071241809919097,579,-569
+Do artificial food colors cause ADHD?,MED-3378 MED-3379 MED-3380 MED-3381 MED-3382 MED-5062 MED-3369 MED-3370 MED-3371 MED-3372,Artificial Food Colors and ADHD,0.8179963751254377,156,-146
+Milk and mucus being a myth is being questioned.,MED-4677 MED-1223 MED-1224 MED-5239 MED-1226 MED-1227 MED-2126 MED-1229 MED-1230 MED-1337,Is Milk and Mucus a Myth?,0.8263429248379297,326,-316
+Is it necessary to avoid titanium dioxide as a personal choice?,MED-3960 MED-3961 MED-3962 MED-3963 MED-3964 MED-3965 MED-3966 MED-3967 MED-3968 MED-3969,Should We Avoid Titanium Dioxide?,0.8281152791383726,121,-111
+Kuna Indian secret.,MED-5041 MED-5042 MED-2222 MED-2223 MED-2224 MED-2225 MED-2226 MED-2227 MED-2228 MED-4286,Kuna Indian Secret,0.9493241843974111,81,-71
+It is recommended to undergo mercury testing before pregnancy.,MED-4375 MED-4376 MED-4378 MED-4379 MED-4380 MED-4381 MED-4531 MED-4546 MED-4547 MED-4622,Mercury Testing Recommended Before Pregnancy,0.8994291093370388,102,-92
+What is the atomic number for sulfur?,MED-717 MED-718 MED-719 MED-720 MED-721 MED-722 MED-723 MED-724 MED-5204 MED-1184,sulfur,0.578907507195428,171,-161
+The person is experiencing breast pain.,MED-3796 MED-3778 MED-3801 MED-3794 MED-666 MED-3779 MED-3791 MED-3792 MED-3793 MED-3795,breast pain,0.7594581136730076,490,-480
+Chernobyl was a disastrous nuclear accident that occurred in Ukraine.,MED-3617 MED-3620 MED-3622 MED-3631 MED-3632 MED-3629 MED-3634 MED-3618 MED-3621 MED-3615,Chernobyl,0.6738811593219396,187,-177
+What is kohlrabi?,MED-4455 MED-2513 MED-2502 MED-2498 MED-2504 MED-2505 MED-2507 MED-5239 MED-2509 MED-2519,kohlrabi,0.7817640714611173,342,-332
+Ascorbic acid is a type of compound.,MED-1195 MED-1196 MED-5360 MED-1198 MED-1199 MED-1200 MED-1201 MED-1202 MED-1203 MED-4488,ascorbic acid,0.6615147441951579,290,-280
+Do you have an opinion on Dr. Jenkins perspective on paleolithic diets?,MED-4203 MED-4299 MED-4205 MED-4206 MED-4676 MED-2586 MED-2587 MED-2588 MED-2591 MED-1476,What do you think of Dr. Jenkins' take on paleolithic diets?,0.9225785925340784,114,-104
+The Academy of Nutrition and Dietetics has conflicts of interest.,MED-2219 MED-2220 MED-2221 MED-2488 MED-2489 MED-2616 MED-2617 MED-2618 MED-2619 MED-2725,Academy of Nutrition and Dietetics Conflicts of Interest,0.87003035275624,58,-48
+There is clinical evidence supporting the relationship between flaxseeds and breast cancer survival.,MED-3841 MED-3832 MED-3843 MED-3836 MED-3853 MED-3845 MED-3848 MED-3830 MED-3840 MED-3864,Flaxseeds & Breast Cancer Survival: Clinical Evidence,0.8416255110363391,153,-143
+What is the meaning of DHA?,MED-2750 MED-2751 MED-2752 MED-2754 MED-2755 MED-3028 MED-2913 MED-3021 MED-3012 MED-3033,DHA,0.7597562610492926,198,-188
+What is Polypropylene plastic?,MED-4991 MED-4992 MED-4185 MED-4186 MED-2644 MED-2646 MED-2651 MED-118 MED-2652 MED-2653,polypropylene plastic,0.8071665301769639,74,-64
+A parasite known as the tongue worm.,MED-4359 MED-4360 MED-4403 MED-4742 MED-4743 MED-4794 MED-4795 MED-4796 MED-4797 MED-4798,tongue worm,0.7894376474202647,155,-145
+A hernia is a medical condition characterized by a protrusion of an organ or tissue through a weak spot in the surrounding muscle or connective tissue.,MED-2997 MED-2999 MED-3000 MED-3001 MED-5177 MED-5175 MED-4422 MED-3169 MED-3170 MED-3171,hernia,0.6202796594061917,68,-58
+The tongue worm is a type of parasite.,MED-4359 MED-4360 MED-4403 MED-4742 MED-4743 MED-4794 MED-4795 MED-4796 MED-4797 MED-4798,tongue worm,0.763358017655426,120,-110
+The Philippines is a country that is located in Southeast Asia.,MED-3982 MED-3983 MED-3984 MED-4000 MED-4002 MED-5016 MED-4005 MED-4007 MED-4001 MED-4004,philippines,0.5655779988876206,144,-134
+Milk is being spoken about.,MED-2644 MED-2646 MED-2651 MED-118 MED-2652 MED-2653 MED-2655 MED-2659 MED-2661 MED-2662,milk,0.5889123490111182,523,-513
+What is the meaning of ECMO?,MED-2109 MED-2110 MED-2111 MED-2112 MED-4255 MED-5047 MED-5048 MED-5049 MED-5050 MED-3545,ECMO,0.787057950451945,73,-63
+Heart disease in childhood can be prevented or controlled.,MED-3254 MED-3253 MED-3255 MED-5322 MED-5323 MED-5324 MED-5325 MED-5326 MED-5327 MED-5328,Stopping Heart Disease in Childhood,0.717548765055197,973,-963
+Lard is a type of fat.,MED-2644 MED-2646 MED-2651 MED-118 MED-2652 MED-2653 MED-2655 MED-2659 MED-2661 MED-2662,lard,0.7319595454480015,1011,-1001
+What are the risks and benefits of alcohol?,MED-4994 MED-3696 MED-3697 MED-3698 MED-3699 MED-3700 MED-3701 MED-3762 MED-3763 MED-3764,Alcohol Risks vs. Benefits,0.8004871502138191,353,-343
+What is Rutin?,MED-4049 MED-4053 MED-4051 MED-5116 MED-4047 MED-4055 MED-3474 MED-3479 MED-3482 MED-3484,Rutin,0.7858773012655181,127,-117
+How does diet affect cellulite?,MED-3815 MED-3816 MED-3820 MED-3821 MED-3817 MED-3818 MED-3819 MED-3822 MED-4256 MED-4257,Diet and Cellulite,0.8462348347037746,296,-286
+Do chronic headaches relate to pork tapeworms?,MED-3169 MED-3170 MED-3171 MED-3172 MED-3173 MED-3174 MED-3175 MED-3176 MED-3177 MED-3178,Chronic Headaches and Pork Tapeworms,0.884376400991088,168,-158
+The bacon is enriched in Vitamin C.,MED-4470 MED-3197 MED-3198 MED-1157 MED-1158 MED-2494 MED-1160 MED-1161 MED-1162 MED-1181,Vitamin C-Enriched Bacon,0.8240665246868689,354,-344
+Black raspberries are being asked about.,MED-3714 MED-3720 MED-3721 MED-3715 MED-3716 MED-3717 MED-3718 MED-3719 MED-3518 MED-3519,black raspberries,0.7228956562891428,368,-358
+Adenovirus 36 is associated with infectobesity in children.,MED-1796 MED-1797 MED-1798 MED-1799 MED-1800 MED-1801 MED-1802 MED-1803 MED-1804 MED-4767,Infectobesity: Adenovirus 36 and Childhood Obesity,0.8443170933941979,623,-613
+Quinine is a substance.,MED-2790 MED-2792 MED-2793 MED-2794 MED-4390 MED-2800 MED-2791 MED-2825 MED-4539 MED-4540,quinine,0.720222193512634,148,-138
+What is Alli?,MED-5155 MED-3492 MED-3487 MED-3493 MED-3488 MED-3489 MED-3490 MED-3491 MED-2140 MED-2141,Alli,0.8119784543401944,81,-71
+Stevia is a plant-based sweetener.,MED-4867 MED-4868 MED-4869 MED-5053 MED-5054 MED-5055 MED-1621 MED-1622 MED-1623 MED-1624,stevia,0.7039437605787608,104,-94
+What is lyme disease?,MED-2355 MED-2362 MED-2363 MED-2364 MED-2365 MED-2369 MED-2337 MED-2338 MED-2339 MED-2340,lyme disease,0.7101189202987398,409,-399
+The veggie chicken is a type of food.,MED-4216 MED-4211 MED-4212 MED-4514 MED-4515 MED-2086 MED-2087 MED-2088 MED-2164 MED-2165,veggie chicken,0.7884818423134634,821,-811
+To what extent are we chemically contaminated?,MED-4474 MED-4475 MED-4476 MED-4477 MED-4479 MED-4480 MED-4481 MED-4482 MED-4483 MED-4484,How Chemically Contaminated Are We?,0.9193252025602092,326,-316
+Please provide an update on Herbalife®.,MED-4872 MED-4873 MED-4874 MED-3985 MED-3986 MED-3987 MED-3988 MED-3989 MED-3990 MED-3991,Update on Herbalife®,0.8462668392865413,105,-95
+Plants contain neurotransmitters found in humans.,MED-4539 MED-4540 MED-4541 MED-4632 MED-4633 MED-4634 MED-4995 MED-4719 MED-4720 MED-4721,Human Neurotransmitters in Plants,0.7819672093187524,195,-185
+Childhood is where heart disease begins.,MED-3253 MED-3254 MED-3255 MED-4556 MED-4559 MED-4560 MED-4613 MED-4617 MED-4615 MED-4616,Heart Disease Starts in Childhood,0.8250122527270118,1017,-1007
+Mouth cancer is a type of cancer affecting the oral cavity.,MED-2200 MED-2201 MED-2202 MED-2203 MED-2204 MED-2205 MED-2206 MED-2207 MED-2208 MED-2209,mouth cancer,0.6382371290940002,199,-189
+What is the healthiest beverage served on airplanes?,MED-1836 MED-1837 MED-1838 MED-1839 MED-1840 MED-1841 MED-1842 MED-1843 MED-1844 MED-1845,Healthiest Airplane Beverage,0.8747196254362314,340,-330
+The comparison is between caloric restriction and plant-based diets.,MED-1711 MED-1712 MED-2763 MED-1714 MED-1715 MED-1716 MED-1717 MED-1718 MED-1719 MED-1720,Caloric Restriction vs. Plant-Based Diets,0.8535383484569097,1220,-1210
+What are organotins?,MED-4727 MED-4728 MED-1148 MED-1149 MED-1150 MED-1151 MED-1152 MED-1153 MED-1179 MED-1181,organotins,0.8351499994448238,348,-338
+What are the healthiest vegetables?,MED-5159 MED-5160 MED-5161 MED-5162 MED-4390 MED-1880 MED-1881 MED-2098 MED-3548 MED-3549,The Healthiest Vegetables,0.8663178849337391,1156,-1146
+Fat toxicity contributes to the development of diabetes as a disease.,MED-1716 MED-1236 MED-1237 MED-1238 MED-1474 MED-1992 MED-1876 MED-1998 MED-1878 MED-1879,Diabetes as a Disease of Fat Toxicity,0.7345453473874165,266,-256
+Halibut is a type of fish.,MED-4182 MED-4183 MED-4380 MED-4381 MED-301 MED-3012 MED-3013 MED-3030 MED-3029 MED-306,halibut,0.771573237422403,792,-782
+"""Do poultry workers perform their tasks efficiently?""",MED-3314 MED-3306 MED-3307 MED-3316 MED-3311 MED-3292 MED-3317 MED-3294 MED-3320 MED-3295,poultry workers,0.6539476222096472,707,-697
+Japan is a country in East Asia.,MED-2513 MED-2502 MED-2498 MED-2504 MED-2505 MED-2507 MED-5239 MED-2509 MED-2519 MED-2510,Japan,0.5394793146467021,458,-448
+The state of ones muscles in terms of their well-being and functionality.,MED-2527 MED-3454 MED-3163 MED-3156 MED-3164 MED-3157 MED-3158 MED-3450 MED-3451 MED-3165,muscle health,0.5802365341274478,576,-566
+Arriving at a Vitamin D Recommendation is a challenging task.,MED-4573 MED-4570 MED-4575 MED-714 MED-919 MED-716 MED-4574 MED-5128 MED-5129 MED-5130,The Difficulty of Arriving at a Vitamin D Recommendation,0.8689291875665212,51,-41
+The state of ones muscles is important for overall well-being.,MED-2527 MED-3454 MED-3163 MED-3156 MED-3164 MED-3157 MED-3158 MED-3450 MED-3451 MED-3165,muscle health,0.6354346424642447,271,-261
+Amyloid is related to apple juice.,MED-4590 MED-4591 MED-2215 MED-726 MED-3679 MED-2088 MED-1789 MED-1790 MED-1791 MED-1792,Amyloid and Apple Juice,0.8895323408987323,278,-268
+Broccoli enhances liver function for a long period of time.,MED-4040 MED-4976 MED-5197 MED-4049 MED-4053 MED-4051 MED-5116 MED-4047 MED-4055 MED-4050,Prolonged Liver Function Enhancement From Broccoli,0.8232238004302301,498,-488
+What is Phytic acidng?,MED-2575 MED-2580 MED-2571 MED-2583 MED-2574 MED-2568 MED-2988 MED-2559 MED-4319 MED-2570,phytic acid,0.7224387093435288,183,-173
+Walnut oil is what is being referred to.,MED-2150 MED-4646 MED-2152 MED-2153 MED-4303 MED-2592 MED-2593 MED-2594 MED-2595 MED-2596,walnut oil,0.753349739799054,176,-166
+An aneurysm is what condition?,MED-4422 MED-3169 MED-3170 MED-3171 MED-3172 MED-3173 MED-3174 MED-3175 MED-3176 MED-3177,aneurysm,0.6381240307928333,86,-76
+CT Scan Radiation poses a risk of cancer.,MED-3623 MED-3624 MED-3625 MED-3626 MED-3627 MED-3609 MED-3610 MED-3617 MED-3620 MED-3622,Cancer Risk From CT Scan Radiation,0.7679344473402232,194,-184
+Please provide the information about Panama.,MED-5041 MED-5042 MED-2568 MED-2988 MED-2559 MED-4319 MED-2570 MED-2573 MED-2574 MED-2585,Panama,0.6732515853875027,243,-233
+Bronchiolitis obliterans has not been altered in terms of meaning.,MED-3385 MED-3387 MED-3386 MED-4407 MED-4411 MED-4412 MED-4408 MED-4410 MED-2644 MED-2646,bronchiolitis obliterans,0.6202127386362526,242,-232
+Plants contain human neurotransmitters.,MED-4539 MED-4540 MED-4541 MED-4632 MED-4633 MED-4634 MED-4995 MED-4719 MED-4720 MED-4721,Human Neurotransmitters in Plants,0.8048024896208461,210,-200
+Plants that are poisonous.,MED-5159 MED-5160 MED-5161 MED-5162 MED-4174 MED-4175 MED-4176 MED-4177 MED-4178 MED-4179,poisonous plants,0.7663238253694156,183,-173
+We are trying to determine the degree of chemical contamination we are experiencing.,MED-4474 MED-4475 MED-4476 MED-4477 MED-4479 MED-4480 MED-4481 MED-4482 MED-4483 MED-4484,How Chemically Contaminated Are We?,0.6821653310155931,325,-315
+Chlorophyll is a green pigment present in plants and algae that helps in photosynthesis.,MED-4194 MED-4195 MED-4196 MED-4197 MED-3486 MED-1277 MED-1278 MED-1279 MED-1280 MED-1281,chlorophyll,0.6011310301640889,114,-104
+What is the answer to the Pritikin Puzzle?,MED-4612 MED-4220 MED-5341 MED-3875 MED-3876 MED-3877 MED-4233 MED-4222 MED-4223 MED-4224,The Answer to the Pritikin Puzzle,0.8633206348206128,137,-127
+The Bush administration was in power.,MED-4991 MED-4992 MED-3369 MED-3348 MED-3371 MED-3350 MED-3351 MED-3352 MED-3353 MED-3354,Bush administration,0.6947067314446675,141,-131
+Goji berries are a type of fruit.,MED-2882 MED-2898 MED-2884 MED-2885 MED-2886 MED-2888 MED-2889 MED-2895 MED-2926 MED-2922,goji berries,0.7249929210055732,402,-392
+Alternative medicine refers to any form of medical treatment that is not widely accepted or practiced by mainstream doctors and healthcare professionals.,MED-2527 MED-2706 MED-2708 MED-2707 MED-2711 MED-2712 MED-2713 MED-2709 MED-2710 MED-2780,alternative medicine,0.626599902220719,486,-476
+Someone is suffering from amnesia.,MED-4380 MED-4381 MED-4736 MED-4739 MED-4738 MED-4742 MED-4743 MED-4811 MED-4946 MED-4951,amnesia,0.6589076356789071,587,-577
+Krill oil supplements and fish oil capsules are being compared to determine which is superior.,MED-927 MED-928 MED-4936 MED-930 MED-931 MED-5091 MED-5092 MED-5093 MED-2750 MED-2751,Are krill oil supplements better than fish oil capsules?,0.8047640462686578,132,-122
+The topic being investigated is the neurobiology of artificial sweeteners.,MED-4120 MED-4121 MED-4124 MED-1574 MED-1575 MED-1576 MED-1577 MED-1578 MED-1579 MED-1580,Neurobiology of Artificial Sweeteners,0.7854285768579753,102,-92
+Mastitis is a condition.,MED-4667 MED-5109 MED-4665 MED-4666 MED-4668 MED-2644 MED-2646 MED-2651 MED-118 MED-2652,mastitis,0.6909361496657659,485,-475
+Wasnt there another study that demonstrated the positive effects of carnitine on the heart?,MED-4324 MED-4556 MED-4559 MED-3781 MED-3789 MED-3790 MED-3782 MED-3788 MED-3787 MED-3785,Didn't another study show carnitine was good for the heart?,0.9100970328920837,174,-164
+What is the commonality between Meat Purge and Cola?,MED-332 MED-3090 MED-334 MED-335 MED-3092 MED-3094 MED-3085 MED-3086 MED-3087 MED-3088,What Do Meat Purge and Cola Have in Common?,0.929843227731938,246,-236
+Carcinogens found in cooked meat are being avoided.,MED-4053 MED-4058 MED-4055 MED-4060 MED-4057 MED-4059 MED-4075 MED-4068 MED-4069 MED-4070,Avoiding Cooked Meat Carcinogens,0.748427211150021,179,-169
+Which vegetables are the healthiest?,MED-5159 MED-5160 MED-5161 MED-5162 MED-4390 MED-1880 MED-1881 MED-2098 MED-3548 MED-3549,The Healthiest Vegetables,0.830213104483642,1195,-1185
+What is norovirus?,MED-2747 MED-2748 MED-2749 MED-4726 MED-3935 MED-3936 MED-3937 MED-3938 MED-3939 MED-3940,norovirus,0.6847530429876322,330,-320
+Medicine that is grounded in evidence.,MED-1496 MED-1497 MED-1498 MED-1499 MED-1500 MED-1501 MED-1502 MED-1503 MED-1504 MED-1505,Evidence-based medicine,0.6704192109502796,808,-798
+Endocrine disruptors are substances that affect the normal functioning of the endocrine system.,MED-2494 MED-2495 MED-2496 MED-2493 MED-2497 MED-2644 MED-2646 MED-2651 MED-118 MED-2652,endocrine disruptors,0.6560948603469163,412,-402
+Okra is a vegetable.,MED-2098 MED-2513 MED-2502 MED-2498 MED-2504 MED-2505 MED-2507 MED-5239 MED-2509 MED-2519,okra,0.7297013268189587,1198,-1188
+Kohlrabi is a type of vegetable.,MED-4455 MED-2513 MED-2502 MED-2498 MED-2504 MED-2505 MED-2507 MED-5239 MED-2509 MED-2519,kohlrabi,0.752950671673033,1170,-1160
+Which sweetener is the healthiest?,MED-5056 MED-3742 MED-2826 MED-2827 MED-2830 MED-2831 MED-4523 MED-2966 MED-2967 MED-2968,The Healthiest Sweetener,0.8256255085635206,117,-107
+Workers who work with poultry.,MED-3314 MED-3306 MED-3307 MED-3316 MED-3311 MED-3292 MED-3317 MED-3294 MED-3320 MED-3295,poultry workers,0.8415780769771828,676,-666
+veggie chicken.,MED-4216 MED-4211 MED-4212 MED-4514 MED-4515 MED-2086 MED-2087 MED-2088 MED-2164 MED-2165,veggie chicken,0.938774042732508,821,-811
+One way to prevent abdominal aortic aneurysms is by providing assistance.,MED-4555 MED-3254 MED-3253 MED-3255 MED-4422 MED-3169 MED-3170 MED-3171 MED-3172 MED-3173,How to Help Prevent Abdominal Aortic Aneurysms,0.7768070645032426,206,-196
+Statin drugs that lower cholesterol levels can be attributed to the occurrence of breast cancer.,MED-2427 MED-10 MED-2429 MED-2430 MED-2431 MED-14 MED-2432 MED-2428 MED-2440 MED-2434,Do Cholesterol Statin Drugs Cause Breast Cancer?,0.7191847045170663,278,-268
+Can kiwifruit be used to treat Irritable Bowel Syndrome?,MED-4325 MED-4516 MED-4517 MED-4518 MED-4522 MED-4635 MED-4640 MED-4637 MED-4689 MED-4810,Kiwifruit for Irritable Bowel Syndrome,0.8832320696842296,201,-191
+A diet that can help prevent cataracts.,MED-4382 MED-4385 MED-4383 MED-4384 MED-4984 MED-4388 MED-4389 MED-4553 MED-4554 MED-5328,Preventing Cataracts with Diet,0.8386324358479631,163,-153
+Nuts are included in the following query.,MED-2376 MED-2593 MED-2378 MED-2379 MED-2380 MED-2381 MED-2382 MED-2383 MED-2384 MED-2592,Four Nuts Once a Month,0.480074266481163,446,-436
+Chocolate milkshakes that are good for your health.,MED-2274 MED-3535 MED-2222 MED-2223 MED-2224 MED-2225 MED-2226 MED-2227 MED-2228 MED-2279,Healthy Chocolate Milkshakes,0.7413490532502114,91,-81
+Can eating Fruit & Nut Bars lead to weight gain?,MED-3896 MED-3897 MED-3906 MED-3908 MED-3900 MED-4289 MED-3910 MED-4715 MED-3893 MED-3894,Do Fruit & Nut Bars Cause Weight Gain?,0.9438099318748645,129,-119
+Reducing exposure to alkylphenols through your diet can be achieved by adapting certain strategies.,MED-2644 MED-2646 MED-2651 MED-118 MED-2652 MED-2653 MED-2655 MED-2659 MED-2661 MED-2662,How to Reduce Exposure to Alkylphenols Through Your Diet,0.875444898128362,174,-164
+Mastitis is a query.,MED-4667 MED-5109 MED-4665 MED-4666 MED-4668 MED-2644 MED-2646 MED-2651 MED-118 MED-2652,mastitis,0.6658090527354146,487,-477
+Fructose is a type of sugar.,MED-1259 MED-2529 MED-1261 MED-1262 MED-1674 MED-1676 MED-1669 MED-1670 MED-1671 MED-1672,fructose,0.6864354511555114,410,-400
+Distilled fish oil is free of toxins.,MED-4729 MED-4730 MED-4731 MED-4732 MED-1831 MED-1832 MED-1833 MED-1834 MED-5092 MED-2750,Is Distilled Fish Oil Toxin-Free?,0.8833320841766776,151,-141
+The importance of cholesterol size: does it matter?,MED-1882 MED-2884 MED-1884 MED-1885 MED-1886 MED-1887 MED-1888 MED-1889 MED-1890 MED-2370,Does Cholesterol Size Matter?,0.8893450730842631,79,-69
+The National Academy of Sciences is being referred to.,MED-3597 MED-3598 MED-3599 MED-4804 MED-714 MED-919 MED-716 MED-1557 MED-1558 MED-1992,National Academy of Sciences,0.7485866623162303,167,-157
+"Rickets is a medical condition caused by a deficiency in vitamin D, calcium, or phosphate, resulting in weakened or deformed bones.",MED-4575 MED-4573 MED-4574 MED-3503 MED-3504 MED-3794 MED-557 MED-3679 MED-714 MED-919,rickets,0.6787875354900343,228,-218
+Meat is associated with multiple myeloma.,MED-4820 MED-4821 MED-4436 MED-4437 MED-5032 MED-5033 MED-5034 MED-5035 MED-4985 MED-4983,Meat & Multiple Myeloma,0.8492028864714924,430,-420
+Avocados are beneficial for your health.,MED-4619 MED-4620 MED-4621 MED-4514 MED-4515 MED-4618 MED-861 MED-4000 MED-4002 MED-5016,Are Avocados Good for You?,0.7071364657833988,107,-97
+Restricting calorie intake.,MED-2513 MED-2502 MED-2498 MED-2504 MED-2505 MED-2507 MED-5239 MED-2509 MED-2519 MED-2510,caloric restriction,0.6527459808858288,587,-577
+Organotins are a type of chemical compound containing tin.,MED-4727 MED-4728 MED-1148 MED-1149 MED-1150 MED-1151 MED-1152 MED-1153 MED-1179 MED-1181,organotins,0.7580221949924206,449,-439
+The EPIC Study is being referenced.,MED-4861 MED-4390 MED-1559 MED-1560 MED-3557 MED-3242 MED-1563 MED-1564 MED-1565 MED-3699,EPIC Study,0.7981697024871791,176,-166
+The city named Peoria.,MED-4539 MED-4540 MED-4541 MED-1240 MED-1241 MED-1242 MED-1243 MED-1244 MED-1245 MED-1246,Peoria,0.761944828639187,248,-238
+Beans are being referred to.,MED-2513 MED-2502 MED-2498 MED-2504 MED-2505 MED-2507 MED-5239 MED-2509 MED-2519 MED-2510,beans,0.6339545967596828,506,-496
+It is possible to increase the population of beneficial bacteria in the colon without using probiotics.,MED-4276 MED-4269 MED-5332 MED-4271 MED-3788 MED-4768 MED-4313 MED-4278 MED-4325 MED-4442,Boosting Good Bacteria in the Colon Without Probiotics,0.77003279559409,247,-237
+Are vegetarians getting sufficient protein intake?,MED-2288 MED-3137 MED-2290 MED-2291 MED-2292 MED-2293 MED-2294 MED-2295 MED-2296 MED-2498,Do Vegetarians Get Enough Protein?,0.8605551137413987,315,-305
+The findings on lymphoma by EPIC were significant.,MED-4436 MED-4437 MED-2693 MED-3729 MED-2696 MED-2702 MED-3314 MED-3306 MED-3307 MED-3316,EPIC Findings on Lymphoma,0.8042097367644261,150,-140
+What is tempeh and how is it made?,MED-4440 MED-4785 MED-4471 MED-4472 MED-4976 MED-4546 MED-4547 MED-5002 MED-5078 MED-3136,tempeh,0.6161923438083844,164,-154
+Prolactin is a hormone.,MED-3801 MED-3794 MED-666 MED-3791 MED-3792 MED-3793 MED-3795 MED-3796 MED-3797 MED-3798,prolactin,0.7270230167108944,350,-340
+How can the presence of good bacteria in the colon be increased without using probiotics?,MED-4276 MED-4269 MED-5332 MED-4271 MED-3788 MED-4768 MED-4313 MED-4278 MED-4325 MED-4442,Boosting Good Bacteria in the Colon Without Probiotics,0.7929552029348299,246,-236
+How does olive oil affect artery function?,MED-5260 MED-5261 MED-5262 MED-5263 MED-5278 MED-5265 MED-5266 MED-5267 MED-5268 MED-5269,Olive Oil and Artery Function,0.893020077416691,236,-226
+Aneurysm is a medical condition.,MED-4422 MED-3169 MED-3170 MED-3171 MED-3172 MED-3173 MED-3174 MED-3175 MED-3176 MED-3177,aneurysm,0.7035451841734996,102,-92
+Viral infections are being searched for.,MED-2747 MED-2748 MED-2749 MED-1103 MED-1104 MED-1105 MED-1106 MED-1107 MED-1108 MED-1109,viral infections,0.6934407940632095,209,-199
+The NIH-AARP study is a research project conducted by the National Institutes of Health in collaboration with the American Association of Retired Persons.,MED-1598 MED-1599 MED-1600 MED-1601 MED-1602 MED-1603 MED-1604 MED-1605 MED-1606 MED-1607,NIH-AARP study,0.74217997428625,263,-253
+Fenugreek seeds have advantages or positive effects.,MED-3811 MED-5341 MED-5337 MED-4464 MED-4465 MED-4468 MED-4469 MED-4543 MED-4538 MED-4539,Benefits of Fenugreek Seeds,0.7763688556848486,147,-137
+Caramel color does not possess carcinogenic properties.,MED-2992 MED-2993 MED-2994 MED-3085 MED-3086 MED-3087 MED-3088 MED-3091 MED-3092 MED-3095,Is Caramel Color Carcinogenic?,0.7315903979948619,189,-179
+The condition of the uterus is in good health.,MED-3503 MED-3504 MED-3794 MED-557 MED-4753 MED-4757 MED-4755 MED-4756 MED-4938 MED-4939,uterine health,0.6827132831244134,325,-315
+The BRCA genes refer to the genes known as BRCA1 and BRCA2.,MED-3136 MED-3123 MED-3138 MED-3143 MED-3137 MED-3132 MED-3141 MED-3139 MED-3140 MED-3127,BRCA genes,0.7225904417690073,579,-569
+How does diet impact breast cancer?,MED-1559 MED-1560 MED-3557 MED-3242 MED-1563 MED-1564 MED-1565 MED-3699 MED-1567 MED-2127,Which Dietary Factors Affect Breast Cancer Most?,0.7633643349983112,310,-300
+Should I eat a snack or not?,MED-4250 MED-4300 MED-4301 MED-4324 MED-4349 MED-4345 MED-4346 MED-4603 MED-5322 MED-5323,To Snack or Not to Snack?,0.8193289666730708,184,-174
+Is fresh fruit better than frozen fruit?,MED-3714 MED-917 MED-4545 MED-2274 MED-3535 MED-2279 MED-2280 MED-2281 MED-2282 MED-3464,Fresh fruit versus frozen--which is better?,0.8503527972123669,188,-178
+The item is filled completely with lead.,MED-4200 MED-4201 MED-4202 MED-4531 MED-4944 MED-2494 MED-2495 MED-2496 MED-2493 MED-2497,Filled Full of Lead,0.731916558457927,228,-218
+One way to decrease the amount of alkylphenols you consume is by modifying your diet.,MED-2644 MED-2646 MED-2651 MED-118 MED-2652 MED-2653 MED-2655 MED-2659 MED-2661 MED-2662,How to Reduce Exposure to Alkylphenols Through Your Diet,0.8281389766717607,179,-169
+What is maple syrup?,MED-4150 MED-5056 MED-717 MED-718 MED-719 MED-720 MED-721 MED-722 MED-723 MED-724,maple syrup,0.7547158694834908,391,-381
+Ergothioneine is a compound.,MED-4165 MED-3707 MED-4539 MED-4540 MED-4541 MED-4650 MED-4649 MED-4651 MED-4900 MED-4901,ergothioneine,0.7001537578751292,152,-142
+The effects of diet on cellulite.,MED-3815 MED-3816 MED-3820 MED-3821 MED-3817 MED-3818 MED-3819 MED-3822 MED-4256 MED-4257,Diet and Cellulite,0.8453731324726137,253,-243
+BPH is a condition related to the prostate gland.,MED-3874 MED-3875 MED-3876 MED-3877 MED-3878 MED-4233 MED-5176 MED-4230 MED-4231 MED-4232,BPH,0.7022960707609935,462,-452
+Ways to reduce the risk of Abdominal Aortic Aneurysms.,MED-4555 MED-2999 MED-3000 MED-2997 MED-3001 MED-3597 MED-3598 MED-3599 MED-4612 MED-4220,How to Help Prevent Abdominal Aortic Aneurysms,0.7895682432149214,179,-169
+What are turnips?,MED-2098 MED-4581 MED-4582 MED-4583 MED-2064 MED-2065 MED-2066 MED-2067 MED-2068 MED-2069,turnips,0.7234003863071519,1096,-1086
+There are 300 foods and their antioxidant content.,MED-4544 MED-2008 MED-2009 MED-2010 MED-2011 MED-2830 MED-2831 MED-3742 MED-3743 MED-3744,Antioxidant Content of 300 Foods,0.8366181663369934,169,-159
+Milk benefits our bones.,MED-1337 MED-1338 MED-1339 MED-1340 MED-1341 MED-1557 MED-1558 MED-1762 MED-1763 MED-1764,Is Milk Good for Our Bones?,0.7572304381274523,560,-550
+What is the best treatment for constipation?,MED-3904 MED-5175 MED-4810 MED-5322 MED-5323 MED-5324 MED-5325 MED-5326 MED-5327 MED-5328,Best Treatment for Constipation,0.8412492377188764,193,-183
+What is the condition of the soil in terms of its overall level of vitality and productivity?,MED-4771 MED-4551 MED-2643 MED-2645 MED-2656 MED-2657 MED-2658 MED-2660 MED-2649 MED-1763,soil health,0.5571266693184178,262,-252
+What are carcinogens?,MED-2568 MED-2988 MED-2559 MED-4319 MED-2570 MED-2573 MED-2574 MED-2585 MED-2599 MED-2607,carcinogens,0.7700269231970089,384,-374
+What is Fosamax?,MED-2988 MED-2980 MED-2990 MED-2986 MED-2985 MED-2987 MED-1486 MED-1487 MED-1488 MED-1489,Fosamax,0.8402954955194089,238,-228
+Turmeric Curcumin is linked to Osteoarthritis.,MED-2797 MED-2809 MED-2799 MED-2800 MED-2801 MED-2802 MED-2803 MED-2804 MED-2805 MED-2819,Turmeric Curcumin and Osteoarthritis,0.8154756641733638,268,-258
+What is your opinion on Dr. Jenkins perspective regarding paleolithic diets?,MED-4203 MED-4299 MED-4205 MED-4206 MED-4676 MED-2586 MED-2587 MED-2588 MED-2591 MED-1476,What do you think of Dr. Jenkins' take on paleolithic diets?,0.9343917615872681,94,-84
+Chickpeas are the subject of the following query.,MED-2988 MED-2577 MED-2578 MED-2572 MED-2581 MED-2582 MED-2584 MED-2824 MED-2815 MED-2794,chickpeas,0.6756902310918989,251,-241
+The type of oil mentioned is flax oil.,MED-4000 MED-4002 MED-5016 MED-4005 MED-4007 MED-4001 MED-4004 MED-4006 MED-4832 MED-4833,flax oil,0.7178071099717208,218,-208
+Citrus can potentially aid in maintaining warmth in your hands.,MED-3474 MED-3479 MED-3482 MED-3484 MED-3485 MED-3477 MED-3467 MED-3473 MED-3469 MED-3481,How Citrus Might Help Keep Your Hands Warm,0.8651832233262644,425,-415
+Ox meat is being discussed.,MED-4687 MED-4689 MED-4880 MED-4881 MED-4882 MED-4883 MED-4884 MED-5102 MED-5104 MED-2494,oxen meat,0.6896956078537939,1244,-1234
+"Who provides superior advice, pharmacists or health food store employees?",MED-4370 MED-4575 MED-4371 MED-4372 MED-4373 MED-4374 MED-4598 MED-4599 MED-4673 MED-4674,Pharmacists Versus Health Food Store Employees: Who Gives Better Advice?,0.9213774083990002,43,-33
+Factory farming practices are being questioned.,MED-2700 MED-2695 MED-2697 MED-2703 MED-2698 MED-2699 MED-2705 MED-4131 MED-2740 MED-2741,factory farming practices,0.72746859625889,356,-346
+The National Academy of Sciences is a prestigious institution.,MED-3597 MED-3598 MED-3599 MED-4804 MED-714 MED-919 MED-716 MED-1557 MED-1558 MED-1992,National Academy of Sciences,0.7691362072859003,120,-110
+Fish can transmit toxins related to sexual activities.,MED-4962 MED-4963 MED-4964 MED-4969 MED-4966 MED-4967 MED-4968 MED-1568 MED-1569 MED-1570,Sexually Transmitted Fish Toxin,0.8018210831282322,229,-219
+Myelopathy is a condition affecting the spinal cord.,MED-5142 MED-4431 MED-5130 MED-2940 MED-2941 MED-2943 MED-2947 MED-4511 MED-4512 MED-4513,myelopathy,0.7857310143363142,157,-147
+The EPIC findings on Lymphoma have been discovered.,MED-4436 MED-4437 MED-4861 MED-4390 MED-1559 MED-1560 MED-3557 MED-3242 MED-1563 MED-1564,EPIC Findings on Lymphoma,0.8772006720246202,193,-183
+Allergies can be caused by Alkylphenol Endocrine Disruptors.,MED-4551 MED-2643 MED-2644 MED-2645 MED-2646 MED-2647 MED-2648 MED-2649 MED-2650 MED-2651,Alkylphenol Endocrine Disruptors and Allergies,0.8080965073832577,362,-352
+Coffee is sought after.,MED-1634 MED-1635 MED-1636 MED-1637 MED-1638 MED-1639 MED-1640 MED-1641 MED-1642 MED-1643,Update on Coffee,0.5608945501364333,359,-349
+Childhood is the starting point for heart disease.,MED-3253 MED-3254 MED-3255 MED-4556 MED-4559 MED-4560 MED-4613 MED-4617 MED-4615 MED-4616,Heart Disease Starts in Childhood,0.7986958637365574,1009,-999
+Curcumin should be taken with caution by whom?,MED-2780 MED-2810 MED-2787 MED-2788 MED-2777 MED-2816 MED-2800 MED-2790 MED-2791 MED-2792,Who Should be Careful About Curcumin?,0.8527572297183654,322,-312
+Can you provide information on mouth cancer?,MED-2200 MED-2201 MED-2202 MED-2203 MED-2204 MED-2205 MED-2206 MED-2207 MED-2208 MED-2209,mouth cancer,0.5910745016505257,192,-182
+Is there a connection between Titanium Dioxide and Inflammatory Bowel Disease?,MED-3960 MED-3961 MED-3962 MED-3963 MED-3964 MED-3965 MED-3966 MED-3967 MED-3968 MED-3969,Titanium Dioxide & Inflammatory Bowel Disease,0.871229832064774,186,-176
+Arriving at a Vitamin D recommendation is difficult.,MED-4573 MED-4570 MED-4575 MED-714 MED-919 MED-716 MED-4574 MED-5128 MED-5129 MED-5130,The Difficulty of Arriving at a Vitamin D Recommendation,0.8895160336523287,51,-41
+Goji berries are not as good as something else.,MED-3742 MED-3893 MED-3894 MED-4544 MED-2882 MED-2898 MED-2884 MED-2885 MED-2886 MED-2888,Better Than Goji Berries,0.6719157121313515,259,-249
+Airport scanners are devices that are used in airports for security purposes.,MED-3617 MED-3618 MED-3620 MED-3621 MED-3615 MED-3622 MED-3624 MED-3625 MED-3623 MED-3626,airport scanners,0.7313556443039033,91,-81
+A plant-based diet is what?,MED-3585 MED-3586 MED-3592 MED-3598 MED-3597 MED-3671 MED-3676 MED-4481 MED-3728 MED-3730,plant-based diet,0.7383192821288519,1263,-1253
+What is IGF-1?,MED-2513 MED-2502 MED-2498 MED-2504 MED-2505 MED-2507 MED-5239 MED-2509 MED-2519 MED-2510,IGF-1,0.8066789236505597,323,-313

@@ -45,7 +45,42 @@ Thumbs.db
 # LLM
 open_ai_key.txt
 anthropic_key.txt
+huggingface_key.txt
 
 # pkl & npy
 *.pkl
 *.npy
+
+# Google API
+google_api_key.txt
+google_cse_id.txt
+
+# Training related
+checkpoint*/
+*checkpoint*/
+runs/
+events.out.tfevents.*
+*.safetensors
+model.pt
+*.bin
+wandb/
+logs/
+
+# Model files and configs
+**/checkpoint*/
+
+# Large data files
+glove*.txt
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+
+# Fine-tuned models
+**/fine_tuned*/
+**/finetuned*/
+**/pretrained*/
+**/pre_trained*/
+**/*fine_tuned*/
+**/*finetuned*/
