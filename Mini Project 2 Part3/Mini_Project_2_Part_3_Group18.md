@@ -53,9 +53,11 @@ Through this assignment, I learned how to implement complex functionalities with
 
 ## Screenshots - Streamlit Interface
 
-![Streamlit Interface](./streamlit_interface.png)
+![Streamlit Interface](./streamlit1.png)
 
-![Streamlit Interface2](./streamlit_interface2.png)
+![Streamlit Interface2](./streamlit2.png)
+
+![Streamlit Interface3](./streamlit3.png)
 
 
 ---
