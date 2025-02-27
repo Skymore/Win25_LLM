@@ -46,6 +46,7 @@ Thumbs.db
 open_ai_key.txt
 anthropic_key.txt
 huggingface_key.txt
+hf_token.txt
 
 # pkl & npy
 *.pkl
