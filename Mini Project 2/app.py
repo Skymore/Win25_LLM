@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv('/home/sky/projects/Win25_LLM/Mini Project 2/.env')
 
 # Set the title of the Streamlit app
-st.title("Mini Project 2: Streamlit Chatbot")
+st.title("Mini Project 2: Streamlit Chatbot \nBy Victoria CHENG & Rui TAO")
 
 # Initialize the OpenAI client with your API key from environment variable
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
