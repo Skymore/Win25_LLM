@@ -1,12 +1,22 @@
 
 PINECONE_API_KEY = "pcsk_3iCMCc_24Fw75JrjyZbapdMdpMMhvRLK7TVEjmAYmQ5W7ZLb6ZtGqD9vGoQYDScYVjCTbt"
 PINECONE_INDEX_NAME = "victoria-openai-index"
-OPENAI_API_KEY = "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"
+import os
 import openai
 import streamlit as st
 from pinecone import Pinecone
+from openai import OpenAI
+from dotenv import load_dotenv
 
-openai.api_key = OPENAI_API_KEY
+# 加载.env文件中的环境变量
+load_dotenv('/home/sky/projects/Win25_LLM/Mini Project 2/.env')
+
+st.title("Streamlit Chatbot with Pinecone & OpenAI Integration\nBy Victoria CHENG & Rui TAO")
+
+# Initialize the OpenAI client with your API key from environment variable
+client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+
+openai.api_key = os.getenv('OPENAI_API_KEY')
 
 pc = Pinecone(api_key=PINECONE_API_KEY)
 index = pc.Index(PINECONE_INDEX_NAME)
@@ -88,8 +98,6 @@ security_agent = Filtering_Agent("security")
 relevance_agent = Filtering_Agent("relevance")
 query_agent = Query_Agent(index)
 answering_agent = Answering_Agent(st.session_state.mode)
-
-st.title("Streamlit Chatbot with Pinecone & OpenAI Integration")
 
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
