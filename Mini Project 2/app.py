@@ -1,14 +1,17 @@
-
 # Import the necessary libraries
 import streamlit as st
 from openai import OpenAI  # Install the OpenAI library using pip install openai
+import os
+from dotenv import load_dotenv
+
+# 加载.env文件中的环境变量
+load_dotenv('/home/sky/projects/Win25_LLM/Mini Project 2/.env')
 
 # Set the title of the Streamlit app
 st.title("Mini Project 2: Streamlit Chatbot")
 
-# Initialize the OpenAI client with your API key
-# TODO: Replace with your actual OpenAI API key
-client = OpenAI(api_key='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')
+# Initialize the OpenAI client with your API key from environment variable
+client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
 # Define a function to get the conversation history (Not required for Part-2, will be useful in Part-3)
 def get_conversation() -> str:
@@ -24,7 +27,7 @@ def get_conversation() -> str:
 
 # Check for existing session state variables and initialize them if they don't exist
 if "openai_model" not in st.session_state:
-    st.session_state["openai_model"] = "gpt-3.5-turbo"  # Set the model to GPT-3.5-turbo
+    st.session_state["openai_model"] = "gpt-4o-mini"  # Set the model to GPT-4o-mini
 
 if "messages" not in st.session_state:
     st.session_state.messages = []  # Initialize an empty list to store messages
