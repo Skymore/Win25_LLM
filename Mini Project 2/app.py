@@ -183,43 +183,60 @@ class Filtering_Agent:
         else:
             return True  # Will use split_and_check_queries instead
         
-    def split_and_check_queries(self, query):
-        # Combined method for splitting and checking relevance - single API call
+    def split_and_check_queries(self, query, chat_history=None):
+        # Combined method for splitting and checking relevance with context awareness
         system_prompt = """
-        You are analyzing a user query to determine if it contains questions or requests related to machine learning.
+        You are analyzing a user query in the context of a machine learning chat assistant.
         
         Your task is to:
         1. Identify all distinct questions or requests in the query, even if they don't end with a question mark
-        2. For each identified question/request, determine if it's related to machine learning
-        3. Include both explicit questions and implicit requests
+        2. Consider any previous conversation context when determining relevance
+        3. For each identified question/request, determine if it's related to machine learning, considering context
+        4. Include both explicit questions and implicit requests
         
         Return your analysis as a JSON object with the following structure:
         {
-          "is_relevant": boolean (true if ANY part of the query is related to machine learning),
-          "questions": [
+        "is_relevant": boolean (true if ANY part of the query is related to machine learning OR if it's a relevant follow-up to previous ML discussion),
+        "questions": [
             {
-              "text": "the exact question/request text as found in the query",
-              "is_ml_related": boolean
+            "text": "the exact question/request text as found in the query",
+            "is_ml_related": boolean,
+            "reasoning": "brief explanation of why this is or isn't ML related, considering context"
             },
             ...
-          ]
+        ],
+        "context_analysis": "explanation of how the conversation context influenced this decision"
         }
         
         Guidelines:
         - Even single sentences that don't look like questions might be implicit requests
-        - Only include actual questions/requests, not statements or context
+        - Short follow-up queries like "Why?" or "Can you explain more?" should inherit relevance from context
+        - Queries that reference previous ML topics without explicitly mentioning ML are relevant
         - Preserve the original wording of the questions/requests
-        - If no clear questions or requests are found, return an empty questions array
         - Be generous in identifying ML-related questions - include AI, data science, and related technical topics
         """
         
+        # Prepare messages including context if available
+        messages = [
+            {"role": "system", "content": system_prompt},
+        ]
+        
+        # Add chat history context if available
+        if chat_history and len(chat_history) > 0:
+            context_content = "Previous conversation:\n"
+            # Include the last 3-5 message exchanges for context
+            for msg in chat_history[-6:]:  # Last 6 messages (3 exchanges)
+                context_content += f"{msg['role']}: {msg['content']}\n"
+            
+            context_content += f"\nNew query: {query}"
+            messages.append({"role": "user", "content": context_content})
+        else:
+            messages.append({"role": "user", "content": f"Analyze this query: {query}"})
+        
         response = client.chat.completions.create(
             model="gpt-4o",
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": f"Analyze this query: {query}"}
-            ],
-            max_tokens=300,
+            messages=messages,
+            max_tokens=500,
             temperature=0,
             response_format={"type": "json_object"}
         )
@@ -231,17 +248,19 @@ class Filtering_Agent:
             # Extract the relevant questions
             is_relevant = result.get('is_relevant', False)
             questions = result.get('questions', [])
+            context_analysis = result.get('context_analysis', '')
             
             relevant_questions = [q['text'] for q in questions if q.get('is_ml_related', False)]
             
             # Include all questions in the total count for comparison
             all_questions = [q['text'] for q in questions]
             
-            return is_relevant, relevant_questions, all_questions
+            return is_relevant, relevant_questions, all_questions, context_analysis
             
         except Exception as e:
             # If parsing fails, fall back to a simple approach
-            return False, [], []
+            st.error(f"Error parsing relevance check: {str(e)}")
+            return False, [], [], "Error in contextual analysis"
 
 
 class Query_Agent:
@@ -319,8 +338,6 @@ with col2:
             # Reset the flag after showing the message
             st.session_state.mode_changed = False
             
-        st.markdown(f"<div class='mode-indicator'>Current Mode: <b>{st.session_state.mode.capitalize()}</b></div>", unsafe_allow_html=True)
-    
     # Add some information about the chatbot
     st.markdown("### About")
     st.info("This chatbot answers machine learning related questions using Pinecone for vector search and OpenAI for generating responses.")
@@ -401,13 +418,22 @@ with col1:
             if not security_agent.check_query(prompt):
                 assistant_response = "Sorry, I cannot answer this question."
             else:
-                # Then check relevance and split queries - only 1 API call
-                is_relevant, relevant_questions, all_questions = relevance_agent.split_and_check_queries(prompt)
+                # Then check relevance and split queries with context awareness
+                # Pass the existing chat history for context
+                is_relevant, relevant_questions, all_questions, context_analysis = relevance_agent.split_and_check_queries(
+                    prompt, st.session_state.messages[:-1]  # Exclude the latest message we just added
+                )
                 
                 if not is_relevant:
                     assistant_response = "Sorry, this is an irrelevant topic."
+                    # Add debug info in development mode
+                    if st.session_state.get('debug_mode', False):
+                        assistant_response += f"\n\nContext analysis: {context_analysis}"
                 elif len(relevant_questions) == 0:
                     assistant_response = "Sorry, I couldn't find any machine learning related questions in your query."
+                    # Add debug info in development mode
+                    if st.session_state.get('debug_mode', False):
+                        assistant_response += f"\n\nContext analysis: {context_analysis}"
                 else:
                     # Format response based on relevant questions
                     if len(relevant_questions) < len(all_questions):
