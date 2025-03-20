@@ -158,66 +158,90 @@ class Filtering_Agent:
             )
         elif prompt_type == "relevance":
             self.prompt = (
-                "Check if the following query is related to machine learning. "
-                "Respond only with 'ALLOW' or 'DENY'."
+                "Analyze if the query is related to machine learning. If it contains multiple questions or requests, "
+                "identify which parts are related to machine learning."
             )
         else:
             raise ValueError("Unknown prompt type.")
+        
+        self.prompt_type = prompt_type
 
     def check_query(self, query):
-        input_text = f"{self.prompt}\nQuery: {query}\nResponse:"
+        if self.prompt_type == "security":
+            input_text = f"{self.prompt}\nQuery: {query}\nResponse:"
+            response = client.chat.completions.create(
+                model="gpt-4o",
+                messages=[
+                    {"role": "system", "content": self.prompt},
+                    {"role": "user", "content": input_text},
+                ],
+                max_tokens=10,
+                temperature=0,
+            )
+            reply = response.choices[0].message.content.strip()
+            return reply == "ALLOW"
+        else:
+            return True  # Will use split_and_check_queries instead
+        
+    def split_and_check_queries(self, query):
+        # Combined method for splitting and checking relevance - single API call
+        system_prompt = """
+        You are analyzing a user query to determine if it contains questions or requests related to machine learning.
+        
+        Your task is to:
+        1. Identify all distinct questions or requests in the query, even if they don't end with a question mark
+        2. For each identified question/request, determine if it's related to machine learning
+        3. Include both explicit questions and implicit requests
+        
+        Return your analysis as a JSON object with the following structure:
+        {
+          "is_relevant": boolean (true if ANY part of the query is related to machine learning),
+          "questions": [
+            {
+              "text": "the exact question/request text as found in the query",
+              "is_ml_related": boolean
+            },
+            ...
+          ]
+        }
+        
+        Guidelines:
+        - Even single sentences that don't look like questions might be implicit requests
+        - Only include actual questions/requests, not statements or context
+        - Preserve the original wording of the questions/requests
+        - If no clear questions or requests are found, return an empty questions array
+        - Be generous in identifying ML-related questions - include AI, data science, and related technical topics
+        """
+        
         response = client.chat.completions.create(
             model="gpt-4o",
             messages=[
-                {"role": "system", "content": self.prompt},
-                {"role": "user", "content": input_text},
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": f"Analyze this query: {query}"}
             ],
-            max_tokens=10,
-            temperature=0,
-        )
-        reply = response.choices[0].message.content.strip()
-        return reply == "ALLOW"
-        
-    def split_and_check_queries(self, query):
-        # First check if overall query is safe
-        if not self.check_query(query):
-            return False, []
-            
-        # Try to split the query into multiple questions
-        split_system_prompt = """
-        You are analyzing a user query that may contain multiple questions.
-        Your task is to split it into individual questions if necessary.
-        Return the results as a JSON array of separate questions.
-        If there is only one question, return an array with just that one question.
-        """
-        
-        split_response = client.chat.completions.create(
-            model="gpt-4o",
-            messages=[
-                {"role": "system", "content": split_system_prompt},
-                {"role": "user", "content": f"Split this into separate questions (JSON array format): {query}"}
-            ],
-            max_tokens=150,
+            max_tokens=300,
             temperature=0,
             response_format={"type": "json_object"}
         )
         
         try:
             import json
-            result = json.loads(split_response.choices[0].message.content)
-            questions = result.get('questions', [query])
+            result = json.loads(response.choices[0].message.content)
             
-            # Check each question for relevance
-            relevant_questions = []
-            for question in questions:
-                if self.check_query(question):
-                    relevant_questions.append(question)
-                    
-            return len(relevant_questions) > 0, relevant_questions
+            # Extract the relevant questions
+            is_relevant = result.get('is_relevant', False)
+            questions = result.get('questions', [])
+            
+            relevant_questions = [q['text'] for q in questions if q.get('is_ml_related', False)]
+            
+            # Include all questions in the total count for comparison
+            all_questions = [q['text'] for q in questions]
+            
+            return is_relevant, relevant_questions, all_questions
             
         except Exception as e:
-            # If parsing fails, fall back to the original behavior
-            return self.check_query(query), [query]
+            # If parsing fails, fall back to a simple approach
+            return False, [], []
 
 
 class Query_Agent:
@@ -248,7 +272,7 @@ class Answering_Agent:
 
         prompt = f"Context:\n{context}\n\nUser Query: {query}\nResponse:"
         response = client.chat.completions.create(
-            model="gpt-4o",
+            model="gpt-4o-mini",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": prompt},
@@ -295,6 +319,8 @@ with col2:
             # Reset the flag after showing the message
             st.session_state.mode_changed = False
             
+        st.markdown(f"<div class='mode-indicator'>Current Mode: <b>{st.session_state.mode.capitalize()}</b></div>", unsafe_allow_html=True)
+    
     # Add some information about the chatbot
     st.markdown("### About")
     st.info("This chatbot answers machine learning related questions using Pinecone for vector search and OpenAI for generating responses.")
@@ -371,12 +397,12 @@ with col1:
         
         # Display a spinner while processing the query
         with st.spinner("Thinking..."):
-            # First check security
+            # First check security - only 1 API call
             if not security_agent.check_query(prompt):
                 assistant_response = "Sorry, I cannot answer this question."
             else:
-                # Then check relevance with the improved split query handling
-                is_relevant, relevant_questions = relevance_agent.split_and_check_queries(prompt)
+                # Then check relevance and split queries - only 1 API call
+                is_relevant, relevant_questions, all_questions = relevance_agent.split_and_check_queries(prompt)
                 
                 if not is_relevant:
                     assistant_response = "Sorry, this is an irrelevant topic."
@@ -384,8 +410,8 @@ with col1:
                     assistant_response = "Sorry, I couldn't find any machine learning related questions in your query."
                 else:
                     # Format response based on relevant questions
-                    if len(relevant_questions) < len(prompt.split('?')) - 1:
-                        # Some questions were filtered out
+                    if len(relevant_questions) < len(all_questions):
+                        # Some questions were filtered out - using LLM's identification of questions
                         filtered_response = "I can only answer questions related to machine learning. "
                         filtered_response += f"I'll answer your question{'s' if len(relevant_questions) > 1 else ''} about: "
                         filtered_response += ", ".join([f'"{q}"' for q in relevant_questions])
